@@ -25,12 +25,20 @@ github_username:  djsimtech
 theme: jekyll-theme-hydejack
 plugins:
   - jekyll-feed
-# Share Links
+
+  # Share Links
 share-links-active:
   twitter: true
   facebook: true
   linkedin: true
 
+# Add links to the sidebar.
+menu:
+  - title: Blog
+    url: /blog/
+  - title: About
+    url: /about/
+    
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
