@@ -1,7 +1,7 @@
 {
   "lang": "en",
-  "name": "djsimtech blog",
-  "short_name": "djsimtech blog",
+  "name": "djsimtech",
+  "short_name": "djsimtech",
   "description": "This blog is for random tech related posts.",
   "start_url": "/?utm_source=homescreen",
   "theme_color": "rgb(25,55,71)",
