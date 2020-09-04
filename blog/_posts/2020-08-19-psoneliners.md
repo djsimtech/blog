@@ -153,9 +153,9 @@ here](https://parade.com/1040121/marynliles/one-liners/).
 - [PowerShell One-Liners: Help, Syntax, Display and Files](https://www.red-gate.com/simple-talk/sysadmin/powershell/powershell-one-liners-help-syntax-display-and-files/)
 
 <script src="https://utteranc.es/client.js"
-        repo="djsimtech / blog"
+        repo="djsimtech/blog"
         issue-term="pathname"
-        theme="github-light"
+        theme="github-dark"
         crossorigin="anonymous"
         async>
 </script>
