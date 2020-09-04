@@ -52,7 +52,7 @@ Powered by Hydejack v9.0.4 <https://hydejack.com/>
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-09-04T00:00:00-07:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","headline":"Microsoft MD-100 Certification - Study Guide","dateModified":"2020-09-04T00:00:00-07:00","datePublished":"2020-09-04T00:00:00-07:00","url":"http://localhost:4000/blog/2020/09/04/MD-100-Study-Guide.html","image":"http://localhost:4000/assets/img/blog/MD-100.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/2020/09/04/MD-100-Study-Guide.html"},"description":"Links to help you study for and pass the Microsoft MD-100 Certification Test","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/dannygalaxy_cropped.jpg"}},"@context":"https://schema.org"}</script>
+{"datePublished":"2020-09-04T00:00:00-07:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/2020/09/04/MD-100-Study-Guide.html"},"headline":"Microsoft MD-100 Certification - Study Guide","dateModified":"2020-09-04T00:00:00-07:00","image":"http://localhost:4000/assets/img/blog/MD-100.jpg","description":"Links to help you study for and pass the Microsoft MD-100 Certification Test","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/dannygalaxy_cropped.jpg"}},"url":"http://localhost:4000/blog/2020/09/04/MD-100-Study-Guide.html","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -273,146 +273,21 @@ in <span>Blog</span>
   <li><a href="#objective" id="markdown-toc-objective">Objective</a></li>
   <li><a href="#prerequisites" id="markdown-toc-prerequisites">Prerequisites</a></li>
   <li><a href="#background" id="markdown-toc-background">Background</a></li>
-  <li><a href="#powershell-one-liners" id="markdown-toc-powershell-one-liners">PowerShell One-Liners</a>    <ul>
-      <li><a href="#time-of-the-last-reboot" id="markdown-toc-time-of-the-last-reboot">Time of the Last Reboot</a></li>
-      <li><a href="#find-your-public-ip-address" id="markdown-toc-find-your-public-ip-address">Find Your Public IP Address</a></li>
-      <li><a href="#find-domain-controllers-on-your-domain" id="markdown-toc-find-domain-controllers-on-your-domain">Find Domain Controllers on Your Domain</a></li>
-      <li><a href="#list-software-available-for-uninstall" id="markdown-toc-list-software-available-for-uninstall">List Software Available for Uninstall</a></li>
-      <li><a href="#install-powershell-core-6-and-7" id="markdown-toc-install-powershell-core-6-and-7">Install PowerShell Core (6 and 7)</a></li>
-      <li><a href="#get-free-space-for-system-drive" id="markdown-toc-get-free-space-for-system-drive">Get Free Space for System Drive</a></li>
-      <li><a href="#get-parent-processes" id="markdown-toc-get-parent-processes">Get Parent Process(es)</a></li>
-      <li><a href="#list-subdirectories-in-the-current-directory" id="markdown-toc-list-subdirectories-in-the-current-directory">List Subdirectories in the Current Directory</a></li>
-      <li><a href="#list-started-services" id="markdown-toc-list-started-services">List Started Services</a></li>
-      <li><a href="#tail-grep-a-file" id="markdown-toc-tail-grep-a-file">Tail (grep) a File</a></li>
-      <li><a href="#port-scanner" id="markdown-toc-port-scanner">Port Scanner</a></li>
-      <li><a href="#common-wmi-cim-queries" id="markdown-toc-common-wmi-cim-queries">Common WMI (CIM) Queries</a></li>
-      <li><a href="#cat-facts" id="markdown-toc-cat-facts">Cat Facts</a></li>
-      <li><a href="#get-a-random-xkcd-comic" id="markdown-toc-get-a-random-xkcd-comic">Get a Random XKCD Comic</a></li>
-    </ul>
-  </li>
-  <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a></li>
-  <li><a href="#related-links" id="markdown-toc-related-links">Related Links</a></li>
 </ul>
 
 <h2 id="objective">Objective</h2>
 
-<p>To provide a one-stop shop for all the topics covered on the Microsoft MD-100 Certification exam.</p>
+<p>To provide a one-stop shop for all the topics covered on the <a href="https://docs.microsoft.com/en-us/learn/certifications/m365-modern-desktop">Microsoft MD-100 Certification</a> exam.</p>
 
 <h2 id="prerequisites">Prerequisites</h2>
 
 <p>General Windows Operating System Knowledge</p>
 
-<p>(Optional) Account at the Microsoft Learn site to track progress <a href="https://docs.microsoft.com/en-us/learn/">Click Here to create an account</a></p>
+<p>(Optional) Account at the <a href="https://docs.microsoft.com/en-us/learn/">Microsoft Learn</a> site to track your progress as you progress through the training modules</p>
 
 <h2 id="background">Background</h2>
 
 <p>Modern Desktop Administrators deploy, configure, secure, manage, and monitor devices and client applications in an enterprise environment.</p>
-
-<h2 id="powershell-one-liners">PowerShell One-Liners</h2>
-
-<h3 id="time-of-the-last-reboot">Time of the Last Reboot</h3>
-
-<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="nf">Get-CimInstance</span><span class="w"> </span><span class="nx">Win32_OperatingSystem</span><span class="p">)</span><span class="o">.</span><span class="nf">LastBootUpTime</span><span class="w">
-</span></code></pre></div></div>
-
-<h3 id="find-your-public-ip-address">Find Your Public IP Address</h3>
-
-<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="nf">Invoke-RestMethod</span><span class="w"> </span><span class="nx">ipinfo.io/json</span><span class="p">)</span><span class="o">.</span><span class="nf">ip</span><span class="w">
-</span></code></pre></div></div>
-
-<h3 id="find-domain-controllers-on-your-domain">Find Domain Controllers on Your Domain</h3>
-
-<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">Resolve-DnsName</span><span class="w"> </span><span class="nt">-Type</span><span class="w"> </span><span class="nx">ALL</span><span class="w"> </span><span class="nt">-Name</span><span class="w"> </span><span class="nx">_ldap._tcp.dc._msdcs.</span><span class="nv">$</span><span class="nn">env</span><span class="p">:</span><span class="nv">userdnsdomain</span><span class="w">
-</span></code></pre></div></div>
-
-<h3 id="list-software-available-for-uninstall">List Software Available for Uninstall</h3>
-
-<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">Get-ItemProperty</span><span class="w"> </span><span class="nx">HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\</span><span class="o">*</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="nf">Select-Object</span><span class="w"> </span><span class="nx">DisplayName</span><span class="p">,</span><span class="w"> </span><span class="nx">DisplayVersion</span><span class="p">,</span><span class="w"> </span><span class="nx">Publisher</span><span class="p">,</span><span class="w"> </span><span class="nx">InstallDate</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="nf">Format-Table</span><span class="w">
-</span></code></pre></div></div>
-
-<h3 id="install-powershell-core-6-and-7">Install PowerShell Core (6 and 7)</h3>
-
-<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">Invoke-Expression</span><span class="w"> </span><span class="s2">"&amp; { </span><span class="si">$(</span><span class="nf">Invoke-RestMethod</span><span class="w"> </span><span class="nt">-Uri</span><span class="w"> </span><span class="nx">aka.ms/install-powers</span><span class="err">…</span><span class="p">)</span><span class="w"> </span><span class="p">}</span><span class="s2">" -UseMSI -Preview
-</span></code></pre></div></div>
-
-<h3 id="get-free-space-for-system-drive">Get Free Space for System Drive</h3>
-
-<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="nf">Get-PSDrive</span><span class="w"> </span><span class="nv">$</span><span class="nn">Env</span><span class="p">:</span><span class="nv">SystemDrive</span><span class="o">.</span><span class="nf">Trim</span><span class="p">(</span><span class="s1">':'</span><span class="p">))</span><span class="o">.</span><span class="nf">Free/1GB</span><span class="w">
-</span></code></pre></div></div>
-
-<h3 id="get-parent-processes">Get Parent Process(es)</h3>
-
-<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kr">foreach</span><span class="w"> </span><span class="p">(</span><span class="nv">$prid</span><span class="w"> </span><span class="kr">in</span><span class="w"> </span><span class="p">(</span><span class="nv">$ppid</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kr">foreach</span><span class="w"> </span><span class="p">(</span><span class="nv">$process</span><span class="w"> </span><span class="kr">in</span><span class="w"> </span><span class="p">(</span><span class="nf">Get-Process</span><span class="w"> </span><span class="nt">-Name</span><span class="w"> </span><span class="s2">"powershell"</span><span class="p">))</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="p">(</span><span class="nf">Get-CimInstance</span><span class="w"> </span><span class="nx">Win32_Process</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="nf">Where-Object</span><span class="w"> </span><span class="nx">processid</span><span class="w"> </span><span class="o">-EQ</span><span class="w"> </span><span class="nv">$process</span><span class="o">.</span><span class="nf">Id</span><span class="p">)</span><span class="o">.</span><span class="nf">parentprocessid</span><span class="w"> </span><span class="p">}))</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nf">Get-Process</span><span class="w"> </span><span class="nt">-Id</span><span class="w"> </span><span class="nv">$prid</span><span class="w"> </span><span class="p">}</span><span class="w">
-</span></code></pre></div></div>
-
-<h3 id="list-subdirectories-in-the-current-directory">List Subdirectories in the Current Directory</h3>
-
-<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">Get-ChildItem</span><span class="w"> </span><span class="nt">-Directory</span><span class="w">
-</span></code></pre></div></div>
-
-<h3 id="list-started-services">List Started Services</h3>
-
-<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">Get-Service</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="nf">Where-Object</span><span class="w"> </span><span class="p">{</span><span class="bp">$_</span><span class="o">.</span><span class="nf">status</span><span class="w"> </span><span class="o">-eq</span><span class="w"> </span><span class="s2">"Started"</span><span class="p">}</span><span class="w">
-</span></code></pre></div></div>
-
-<h3 id="tail-grep-a-file">Tail (grep) a File</h3>
-
-<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">Get-Content</span><span class="w"> </span><span class="o">.</span><span class="nx">/logfile.log</span><span class="w"> </span><span class="nt">-Tail</span><span class="w"> </span><span class="nx">5</span><span class="w"> </span><span class="err">–</span><span class="nx">Wait</span><span class="w">
-</span></code></pre></div></div>
-
-<h3 id="port-scanner">Port Scanner</h3>
-
-<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mi">0</span><span class="o">..</span><span class="mi">65535</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="nf">Foreach-Object</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nf">Test-NetConnection</span><span class="w"> </span><span class="nt">-Port</span><span class="w"> </span><span class="bp">$_</span><span class="w"> </span><span class="nx">scanme.nmap.org</span><span class="w"> </span><span class="nt">-WA</span><span class="w"> </span><span class="nx">SilentlyContinue</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="nf">Format-Table</span><span class="w"> </span><span class="nt">-Property</span><span class="w"> </span><span class="nx">ComputerName</span><span class="p">,</span><span class="nx">RemoteAddress</span><span class="p">,</span><span class="nx">RemotePort</span><span class="p">,</span><span class="nx">TcpTestSucceeded</span><span class="w"> </span><span class="p">}</span><span class="w">
-</span></code></pre></div></div>
-
-<h3 id="common-wmi-cim-queries">Common WMI (CIM) Queries</h3>
-
-<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># BIOS Version</span><span class="w">
-</span><span class="p">(</span><span class="nf">Get-CimInstance</span><span class="w"> </span><span class="nx">Win32_BIOS</span><span class="p">)</span><span class="o">.</span><span class="nf">SMBIOSBIOSVersion</span><span class="w">
-
-</span><span class="c"># Serial Number</span><span class="w">
-</span><span class="p">(</span><span class="nf">Get-CimInstance</span><span class="w"> </span><span class="nx">Win32_BIOS</span><span class="p">)</span><span class="o">.</span><span class="nf">SerialNumber</span><span class="w">
-
-</span><span class="c"># Model</span><span class="w">
-</span><span class="p">(</span><span class="nf">Get-CimInstance</span><span class="w"> </span><span class="nx">Win32_ComputerSystem</span><span class="p">)</span><span class="o">.</span><span class="nf">Model</span><span class="w">
-
-</span><span class="c"># Printers</span><span class="w">
-</span><span class="nf">Get-CimInstance</span><span class="w"> </span><span class="nx">Win32_Printer</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="nf">Select-Object</span><span class="w"> </span><span class="nx">Name</span><span class="p">,</span><span class="w"> </span><span class="nx">PortName</span><span class="p">,</span><span class="w"> </span><span class="nx">Default</span><span class="w">
-
-</span><span class="c"># Active Directory Domain</span><span class="w">
-</span><span class="p">(</span><span class="nf">Get-CimInstance</span><span class="w"> </span><span class="nx">Win32_ComputerSystem</span><span class="p">)</span><span class="o">.</span><span class="nf">Domain</span><span class="w">
-</span></code></pre></div></div>
-
-<h3 id="cat-facts">Cat Facts</h3>
-
-<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">Invoke-WebRequest</span><span class="w"> </span><span class="nt">-Uri</span><span class="w"> </span><span class="s1">'https://catfact.ninja/fact'</span><span class="w"> </span><span class="nt">-UseBasicParsing</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="nf">Select-Object</span><span class="w"> </span><span class="nt">-ExpandProperty</span><span class="w"> </span><span class="s1">'Content'</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="nf">ConvertFrom-Json</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="nf">Select-Object</span><span class="w"> </span><span class="nt">-ExpandProperty</span><span class="w"> </span><span class="nx">fact</span><span class="w">
-</span></code></pre></div></div>
-
-<h3 id="get-a-random-xkcd-comic">Get a Random XKCD Comic</h3>
-
-<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">Invoke-RestMethod</span><span class="w"> </span><span class="s2">"http://xkcd.com/</span><span class="si">$(</span><span class="nf">Get-Random</span><span class="w"> </span><span class="nt">-min</span><span class="w"> </span><span class="nx">0</span><span class="w"> </span><span class="nt">-max</span><span class="w"> </span><span class="nx">2000</span><span class="p">)</span><span class="nf">/info.0.json</span><span class="s2">" | Select-Object title, transcript, alt, img | Format-List
-</span></code></pre></div></div>
-
-<h2 id="conclusion">Conclusion</h2>
-
-<p>Hopefully, you’ve found some snippets in this post useful. For me, one-liners
-have been fun, interactive ways to play with PowerShell and test my knowledge,
-expectations, and push the language to its limits.</p>
-
-<p>Have a cool one-liner you’d like to add to this doc? Feel free to drop a comment
-or edit this page directly on GitHub using the button below.</p>
-
-<p>Want more one-liners? <a href="https://parade.com/1040121/marynliles/one-liners/">Click
-here</a>.</p>
-
-<p>/dadjoke 🙃</p>
-
-<h2 id="related-links">Related Links</h2>
-
-<ul>
-  <li><a href="https://mikefrobbins.com/2019/02/07/whats-a-powershell-one-liner-not-a-powershell-one-liner/">What’s a PowerShell One-Liner &amp; NOT a PowerShell One-Liner?</a></li>
-  <li><a href="https://www.red-gate.com/simple-talk/sysadmin/powershell/powershell-one-liners-help-syntax-display-and-files/">PowerShell One-Liners: Help, Syntax, Display and Files</a></li>
-</ul>
 
 <script src="https://utteranc.es/client.js" repo="djsimtech/blog" issue-term="pathname" theme="github-dark" crossorigin="anonymous" async="">
 </script>
@@ -464,7 +339,7 @@ here</a>.</p>
     About
   </h2>
 
-  <p>Windows Systems Administrator with an unhealthy addiction to automation and SRE practices. With over five years of experience in IT, my primary areas of focus are PowerShell, Python, automation, CI/CD, infrastructure as code, imaging/provisioning, configuration management, and championing SRE practices.</p>
+  <p>Windows Systems Administrator with a thirst for knowledge. 20 years of IT experience with a current focus on End User Computing and Automation.</p>
 
 
   <div class="sidebar-social">
@@ -677,18 +552,6 @@ here</a>.</p>
           
         >
           About
-        </a>
-      </li>
-    
-      
-      <li>
-        <a
-          
-          href="/links/"
-          class="sidebar-nav-item"
-          
-        >
-          Links
         </a>
       </li>
     

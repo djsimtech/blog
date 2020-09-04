@@ -11,10 +11,8 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about: >
-    Windows Systems Administrator with an unhealthy addiction to automation and SRE practices.
-    With over five years of experience in IT, my primary areas of focus are
-    PowerShell, Python, automation, CI/CD, infrastructure as code,
-    imaging/provisioning, configuration management, and championing SRE practices.
+    Windows Systems Administrator with a thirst for knowledge. 20 years of IT experience with
+    a current focus on End User Computing and Automation.
 
   # This photo will be used in the about section
   picture:
