@@ -6,7 +6,7 @@ author1:
   linkedin: danny-simmons-3880162
   twitter: djsimtech
   github: djsimtech
-  email: danny.j.sommons@gmail.com
+  email: 
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
@@ -31,7 +31,7 @@ author1:
     linkedin: danny-simmons-3880162
     twitter: djsimtech
     github: djsimtech
-    email: danny.j.simmons@gmail.com
+    email: 
 # Another author (optional)
 # author2:
 #   name: <firtname> <lastname>
