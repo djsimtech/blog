@@ -38,7 +38,9 @@ menu:
     url: /blog/
   - title: About
     url: /about/
-    
+
+accent_image: /assets/img/glc.jpg
+accent_color: rgb(79,177,186)
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
