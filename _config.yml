@@ -48,6 +48,10 @@ menu:
     url: /blog/
   - title: About
     url: /about/
+  - title: Links
+    url: /links/
+
+# disqus: djsimtech
 
 accent_image: /assets/img/glc.jpg
 accent_color: rgb(79,177,186)
