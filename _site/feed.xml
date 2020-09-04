@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-09-04T14:07:36-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">djsimtech</title><subtitle>This blog is for random tech related posts. </subtitle><entry><title type="html">Useful PowerShell One-Liners</title><link href="http://localhost:4000/blog/2020/08/19/psoneliners.html" rel="alternate" type="text/html" title="Useful PowerShell One-Liners" /><published>2020-08-19T00:00:00-07:00</published><updated>2020-08-19T00:00:00-07:00</updated><id>http://localhost:4000/blog/2020/08/19/psoneliners</id><content type="html" xml:base="http://localhost:4000/blog/2020/08/19/psoneliners.html">&lt;p class=&quot;figcaption&quot;&gt;PowerShell…heh, thats funny&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-09-04T14:29:05-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">djsimtech</title><subtitle>This blog is for random tech related posts. </subtitle><entry><title type="html">Microsoft MD-100 Certification - Study Guide</title><link href="http://localhost:4000/blog/2020/09/04/MD-100-Study-Guide.html" rel="alternate" type="text/html" title="Microsoft MD-100 Certification - Study Guide" /><published>2020-09-04T00:00:00-07:00</published><updated>2020-09-04T00:00:00-07:00</updated><id>http://localhost:4000/blog/2020/09/04/MD-100-Study-Guide</id><content type="html" xml:base="http://localhost:4000/blog/2020/09/04/MD-100-Study-Guide.html">&lt;p class=&quot;figcaption&quot;&gt;Microsoft 365 Certified - Modern Desktop Administrator - Associate&lt;/p&gt;
 
 &lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#objective&quot; id=&quot;markdown-toc-objective&quot;&gt;Objective&lt;/a&gt;&lt;/li&gt;
@@ -27,22 +27,17 @@
 
 &lt;h2 id=&quot;objective&quot;&gt;Objective&lt;/h2&gt;
 
-&lt;p&gt;This post aims to document some useful one-liners I’ve come across as part of
-everyday usage of PowerShell. Hopefully, you’ll find some of these powerful,
-time-saving, and fun to play around with!&lt;/p&gt;
-
-&lt;p class=&quot;note&quot;&gt;Many of these one-liners were taken from various blogs, social media, etc., and
-are not necessarily my own.&lt;/p&gt;
+&lt;p&gt;To provide a one-stop shop for all the topics covered on the Microsoft MD-100 Certification exam.&lt;/p&gt;
 
 &lt;h2 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h2&gt;
 
-&lt;p&gt;Windows PowerShell 5.1 (unless otherwise specified), usually run as administrator&lt;/p&gt;
+&lt;p&gt;General Windows Operating System Knowledge&lt;/p&gt;
+
+&lt;p&gt;(Optional) Account at the Microsoft Learn site to track progress &lt;a href=&quot;https://docs.microsoft.com/en-us/learn/&quot;&gt;Click Here to create an account&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
 
-&lt;p&gt;Part of learning PowerShell is simply writing code and getting a feel for what
-the output should look like. Go ahead, copy and of these one-liners into your
-PowerShell console. What do you expect to see? What did you actually see?&lt;/p&gt;
+&lt;p&gt;Modern Desktop Administrators deploy, configure, secure, manage, and monitor devices and client applications in an enterprise environment.&lt;/p&gt;
 
 &lt;h2 id=&quot;powershell-one-liners&quot;&gt;PowerShell One-Liners&lt;/h2&gt;
 
@@ -151,4 +146,4 @@ here&lt;/a&gt;.&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;script src=&quot;https://utteranc.es/client.js&quot; repo=&quot;djsimtech/blog&quot; issue-term=&quot;pathname&quot; theme=&quot;github-dark&quot; crossorigin=&quot;anonymous&quot; async=&quot;&quot;&gt;
-&lt;/script&gt;</content><author><name></name></author><category term="blog" /><summary type="html">PowerShell…heh, thats funny</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/powershell.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/powershell.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/script&gt;</content><author><name></name></author><category term="blog" /><summary type="html">Microsoft 365 Certified - Modern Desktop Administrator - Associate</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/MD-100.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/MD-100.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

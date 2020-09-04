@@ -1,25 +1,31 @@
 ---
-layout: page
-title: Links
-image: /assets/img/blog/powershell.jpg
+layout: post
+title: Microsoft MD-100 Certification - Study Guide
+image: /assets/img/blog/MD-100.jpg
 description: >
-  Collection of Useful links I've gathered over time
-permalink: /links/
+  Links to help you study for and pass the Microsoft MD-100 Certification Test
 ---
 
+
+Microsoft 365 Certified - Modern Desktop Administrator - Associate
+{:.figcaption}
 
 - Table of Contents
 {:toc}
 
+## Objective
+
+To provide a one-stop shop for all the topics covered on the Microsoft MD-100 Certification exam.
+
 ## Prerequisites
 
-Internet Connection
+General Windows Operating System Knowledge
 
-Web Browser
+(Optional) Account at the Microsoft Learn site to track progress [Click Here to create an account](https://docs.microsoft.com/en-us/learn/)
 
-## Certifications
+## Background
 
-This section wi
+Modern Desktop Administrators deploy, configure, secure, manage, and monitor devices and client applications in an enterprise environment.
 
 ## PowerShell One-Liners
 
