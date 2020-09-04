@@ -4,7 +4,6 @@ title: Links
 image: /assets/img/blog/powershell.jpg
 description: >
   Collection of Useful links I've gathered over time
-# comments: true
 permalink: /links/
 ---
 

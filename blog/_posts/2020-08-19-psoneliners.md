@@ -4,7 +4,6 @@ title: Useful PowerShell One-Liners
 image: /assets/img/blog/powershell.jpg
 description: >
   Some neat, time-saving PowerShell plug-and-play commands
-comments: true
 ---
 
 
