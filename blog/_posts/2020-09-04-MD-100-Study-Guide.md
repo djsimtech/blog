@@ -13,6 +13,10 @@ Microsoft 365 Certified - Modern Desktop Administrator - Associate
 - Table of Contents
 {:toc}
 
+Netlify runs the `jekyll build` command for you against your
+GitHub repo, does SSL/optimization/CDN magic, and publishes your website.
+{:.tldr}
+
 ## Objective :mag:
 
 To provide a one-stop shop for all the topics covered in the [Microsoft MD-100 Certification](https://docs.microsoft.com/en-us/learn/certifications/m365-modern-desktop) exam.
