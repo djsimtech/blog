@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-09-04T22:33:40-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">djsimtech</title><subtitle>This blog is for random tech related posts.</subtitle><entry><title type="html">Microsoft MD-100 Certification - Study Guide</title><link href="http://localhost:4000/blog/MD-100-Study-Guide" rel="alternate" type="text/html" title="Microsoft MD-100 Certification - Study Guide" /><published>2020-09-04T00:00:00-07:00</published><updated>2020-09-04T00:00:00-07:00</updated><id>http://localhost:4000/blog/MD-100-Study-Guide</id><content type="html" xml:base="http://localhost:4000/blog/MD-100-Study-Guide">&lt;p class=&quot;figcaption&quot;&gt;Microsoft 365 Certified - Modern Desktop Administrator - Associate&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-09-04T22:34:12-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">djsimtech</title><subtitle>This blog is for random tech related posts.</subtitle><entry><title type="html">Microsoft MD-100 Certification - Study Guide</title><link href="http://localhost:4000/blog/MD-100-Study-Guide" rel="alternate" type="text/html" title="Microsoft MD-100 Certification - Study Guide" /><published>2020-09-04T00:00:00-07:00</published><updated>2020-09-04T00:00:00-07:00</updated><id>http://localhost:4000/blog/MD-100-Study-Guide</id><content type="html" xml:base="http://localhost:4000/blog/MD-100-Study-Guide">&lt;p class=&quot;figcaption&quot;&gt;Microsoft 365 Certified - Modern Desktop Administrator - Associate&lt;/p&gt;
 
 &lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#objective-mag&quot; id=&quot;markdown-toc-objective-mag&quot;&gt;Objective :mag:&lt;/a&gt;&lt;/li&gt;
@@ -25,9 +25,6 @@
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p class=&quot;tldr&quot;&gt;Netlify runs the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll build&lt;/code&gt; command for you against your
-GitHub repo, does SSL/optimization/CDN magic, and publishes your website.&lt;/p&gt;
 
 &lt;h2 id=&quot;objective-mag&quot;&gt;Objective :mag:&lt;/h2&gt;
 
