@@ -55,10 +55,15 @@ plugins:
   - jekyll-email-protect
   - jekyll-seo-tag
   - jemoji
+  - jekyll-last-modified-at
 
 copyright: ''
 
 permalink: /blog/:title
+
+# Optional. The default date format, used if none is specified in the tag.
+last-modified-at:
+    date-format: '%d-%b-%y'
 
 ########################################################################################################################
 # Jekyll Customizations                                                                                                #

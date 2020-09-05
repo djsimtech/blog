@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post  
 title: Microsoft AZ-900 Certification - Study Guide
 image: /assets/img/blog/AZ900.png
 description: >
@@ -52,7 +52,7 @@ Azure Fundamentals can be used to prepare for other Azure role-based or specialt
  - Security, privacy, compliance, and trust
  - Azure pricing and support.
   
-##### The AZ-900 exam costs $99.00
+##### The AZ-900 exam costs $99.00 :moneybag:
 
 ## Microsoft Learning path :mortar_board:
 
@@ -86,7 +86,7 @@ Azure Fundamentals can be used to prepare for other Azure role-based or specialt
 - [CBT Nuggets](https://www.cbtnuggets.com/it-training/microsoft-azure/fundamentals)
 - [ITPRO Course](https://www.itpro.tv/courses/microsoft/microsoft-azure-fundamentals-az900/)
 
-## Summary :hammer:
+## Summary :clapper:
 - Have a question?
 - Find an error?
 - Have a suggestion on how to improve this page?

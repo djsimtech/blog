@@ -46,7 +46,7 @@ Certification. The 2nd exam is the [MD-101](https://docs.microsoft.com/en-us/lea
  - Manage and protect devices
  - Manage apps and data.
 
-##### Each exam costs $165.00
+##### Each exam costs $165.00 :moneybag:
 
 ## Microsoft Learning path :mortar_board:
 
@@ -162,7 +162,7 @@ Certification. The 2nd exam is the [MD-101](https://docs.microsoft.com/en-us/lea
 - [ITPRO Course](https://www.itpro.tv/courses/microsoft/windows-10-md100/)
 - [Lynda Course](https://www.lynda.com/learning-paths/IT/prepare-for-the-microsoft-md-100-exam)
 
-## Summary :hammer:
+## Summary :clapper:
 - Have a question?
 - Find an error?
 - Have a suggestion on how to improve this page?
