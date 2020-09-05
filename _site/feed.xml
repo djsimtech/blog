@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-09-04T22:13:30-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">djsimtech</title><subtitle>This blog is for random tech related posts.</subtitle><entry><title type="html">Microsoft MD-100 Certification - Study Guide</title><link href="http://localhost:4000/blog/MD-100-Study-Guide" rel="alternate" type="text/html" title="Microsoft MD-100 Certification - Study Guide" /><published>2020-09-04T00:00:00-07:00</published><updated>2020-09-04T00:00:00-07:00</updated><id>http://localhost:4000/blog/MD-100-Study-Guide</id><content type="html" xml:base="http://localhost:4000/blog/MD-100-Study-Guide">&lt;p class=&quot;figcaption&quot;&gt;Microsoft 365 Certified - Modern Desktop Administrator - Associate&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-09-04T22:25:04-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">djsimtech</title><subtitle>This blog is for random tech related posts.</subtitle><entry><title type="html">Microsoft MD-100 Certification - Study Guide</title><link href="http://localhost:4000/blog/MD-100-Study-Guide" rel="alternate" type="text/html" title="Microsoft MD-100 Certification - Study Guide" /><published>2020-09-04T00:00:00-07:00</published><updated>2020-09-04T00:00:00-07:00</updated><id>http://localhost:4000/blog/MD-100-Study-Guide</id><content type="html" xml:base="http://localhost:4000/blog/MD-100-Study-Guide">&lt;p class=&quot;figcaption&quot;&gt;Microsoft 365 Certified - Modern Desktop Administrator - Associate&lt;/p&gt;
 
 &lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#objective-mag&quot; id=&quot;markdown-toc-objective-mag&quot;&gt;Objective :mag:&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#prerequisites-white_check_mark&quot; id=&quot;markdown-toc-prerequisites-white_check_mark&quot;&gt;Prerequisites :white_check_mark:&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#background-bulb&quot; id=&quot;markdown-toc-background-bulb&quot;&gt;Background :bulb:&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#exam-details-cold_sweat&quot; id=&quot;markdown-toc-exam-details-cold_sweat&quot;&gt;Exam Details :cold_sweat:&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#the-md-100-exam-measures-your-ability-to-accomplish-the-following-technical-tasks&quot; id=&quot;markdown-toc-the-md-100-exam-measures-your-ability-to-accomplish-the-following-technical-tasks&quot;&gt;The MD-100 exam measures your ability to accomplish the following technical tasks:&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#the-md-100-exam-measures-your-ability-to-accomplish-the-following-technical-tasks-100&quot; id=&quot;markdown-toc-the-md-100-exam-measures-your-ability-to-accomplish-the-following-technical-tasks-100&quot;&gt;The MD-100 exam measures your ability to accomplish the following technical tasks: :100:&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#the-md-101-exam-measures-your-ability-to-accomplish-the-following-technical-tasks&quot; id=&quot;markdown-toc-the-md-101-exam-measures-your-ability-to-accomplish-the-following-technical-tasks&quot;&gt;The MD-101 exam measures your ability to accomplish the following technical tasks:&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#each-exam-costs-16500&quot; id=&quot;markdown-toc-each-exam-costs-16500&quot;&gt;Each exam costs $165.00&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
@@ -15,12 +15,12 @@
       &lt;li&gt;&lt;a href=&quot;#the-md-100-learning-path-contains-9-modules-that-align-with-the-areas-covered-on-the-exam&quot; id=&quot;markdown-toc-the-md-100-learning-path-contains-9-modules-that-align-with-the-areas-covered-on-the-exam&quot;&gt;The MD-100 Learning Path contains 9 modules that align with the areas covered on the exam&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#external-links&quot; id=&quot;markdown-toc-external-links&quot;&gt;External Links&lt;/a&gt;    &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#external-links-link&quot; id=&quot;markdown-toc-external-links-link&quot;&gt;External Links :link:&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#the-following-links-were-gathered-from-the-9-modules-in-the-md-100-learning-path&quot; id=&quot;markdown-toc-the-following-links-were-gathered-from-the-9-modules-in-the-md-100-learning-path&quot;&gt;the following links were gathered from the 9 modules in the MD-100 learning path&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#other-training-options-muscle&quot; id=&quot;markdown-toc-other-training-options-muscle&quot;&gt;Other Training Options :muscle:&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#summary&quot; id=&quot;markdown-toc-summary&quot;&gt;Summary&lt;/a&gt;    &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#summary-hammer&quot; id=&quot;markdown-toc-summary-hammer&quot;&gt;Summary :hammer:&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#please-leave-a-comment-and-i-will-respond-back-speech_balloon&quot; id=&quot;markdown-toc-please-leave-a-comment-and-i-will-respond-back-speech_balloon&quot;&gt;Please leave a comment and I will respond back :speech_balloon:&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
@@ -45,7 +45,7 @@
 &lt;p&gt;The &lt;a href=&quot;https://docs.microsoft.com/en-us/learn/certifications/exams/md-100&quot;&gt;MD-100&lt;/a&gt; is 1 of 2 exams you’ll need to pass in order to obtain your “Microsoft 365 Certified - Modern Desktop Administrator - Associate”
 Certification. The 2nd exam is the &lt;a href=&quot;https://docs.microsoft.com/en-us/learn/certifications/exams/md-101&quot;&gt;MD-101&lt;/a&gt;&lt;/p&gt;
 
-&lt;h5 id=&quot;the-md-100-exam-measures-your-ability-to-accomplish-the-following-technical-tasks&quot;&gt;The MD-100 exam measures your ability to accomplish the following technical tasks:&lt;/h5&gt;
+&lt;h5 id=&quot;the-md-100-exam-measures-your-ability-to-accomplish-the-following-technical-tasks-100&quot;&gt;The MD-100 exam measures your ability to accomplish the following technical tasks: :100:&lt;/h5&gt;
 &lt;ul&gt;
   &lt;li&gt;Deploy Windows&lt;/li&gt;
   &lt;li&gt;Manage devices and data&lt;/li&gt;
@@ -69,18 +69,18 @@ Certification. The 2nd exam is the &lt;a href=&quot;https://docs.microsoft.com/e
 
 &lt;h5 id=&quot;the-md-100-learning-path-contains-9-modules-that-align-with-the-areas-covered-on-the-exam&quot;&gt;The &lt;a href=&quot;https://docs.microsoft.com/en-us/learn/paths/m365-getmodern/&quot;&gt;MD-100 Learning Path&lt;/a&gt; contains 9 modules that align with the areas covered on the exam&lt;/h5&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/learn/modules/m365-get-modern-intro/&quot;&gt;Get Started with Microsoft 365&lt;/a&gt; :suspect:&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/learn/modules/m365-modern-device-app/&quot;&gt;Analyze your device and app readiness for Windows 10&lt;/a&gt; :rage1:&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/learn/modules/m365-directory-network-readiness/&quot;&gt;Analyze your directory and network readiness for Microsoft 365&lt;/a&gt; :rage2:&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/learn/modules/m365-office-lob-apps/&quot;&gt;Deliver Microsoft 365 Apps and business apps&lt;/a&gt; :rage3:&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/learn/modules/m365-user-files-settings/&quot;&gt;Migrate user files and settings in Microsoft 365&lt;/a&gt; :rage4:&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/learn/modules/m365-modern-security-and-compliance/&quot;&gt;Update your security and compliance configuration – Windows 10 and Microsoft 365 Apps&lt;/a&gt; :hurtrealbad:&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/learn/modules/m365-modern-os-deployment/&quot;&gt;Deploy, upgrade, and migrate to Windows 10&lt;/a&gt; :feelsgood:&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/learn/modules/m365-modern-windows-office-servicing/&quot;&gt;Learn about Windows and Microsoft 365 Apps servicing in Microsoft 365&lt;/a&gt; :goberserk:&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/learn/modules/m365-get-modern-intro/&quot;&gt;Get Started with Microsoft 365&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/learn/modules/m365-modern-device-app/&quot;&gt;Analyze your device and app readiness for Windows 10&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/learn/modules/m365-directory-network-readiness/&quot;&gt;Analyze your directory and network readiness for Microsoft 365&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/learn/modules/m365-office-lob-apps/&quot;&gt;Deliver Microsoft 365 Apps and business apps&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/learn/modules/m365-user-files-settings/&quot;&gt;Migrate user files and settings in Microsoft 365&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/learn/modules/m365-modern-security-and-compliance/&quot;&gt;Update your security and compliance configuration – Windows 10 and Microsoft 365 Apps&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/learn/modules/m365-modern-os-deployment/&quot;&gt;Deploy, upgrade, and migrate to Windows 10&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/learn/modules/m365-modern-windows-office-servicing/&quot;&gt;Learn about Windows and Microsoft 365 Apps servicing in Microsoft 365&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/learn/modules/m365-modern-usercomm-training/&quot;&gt;Train users on the new Windows and Microsoft 365 Apps features&lt;/a&gt; :godmode:&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;external-links&quot;&gt;External Links&lt;/h2&gt;
+&lt;h2 id=&quot;external-links-link&quot;&gt;External Links :link:&lt;/h2&gt;
 
 &lt;h5 id=&quot;the-following-links-were-gathered-from-the-9-modules-in-the-md-100-learning-path&quot;&gt;the following links were gathered from the 9 modules in the MD-100 learning path&lt;/h5&gt;
 
@@ -181,7 +181,7 @@ Certification. The 2nd exam is the &lt;a href=&quot;https://docs.microsoft.com/e
   &lt;li&gt;&lt;a href=&quot;https://www.lynda.com/learning-paths/IT/prepare-for-the-microsoft-md-100-exam&quot;&gt;Lynda Course&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+&lt;h2 id=&quot;summary-hammer&quot;&gt;Summary :hammer:&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;Have a question?&lt;/li&gt;
   &lt;li&gt;Find an error?&lt;/li&gt;
