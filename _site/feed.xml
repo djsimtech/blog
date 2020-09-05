@@ -1,4 +1,120 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-09-05T02:56:15-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">djsimtech</title><subtitle>This blog is for random tech related posts.</subtitle><entry><title type="html">Microsoft MD-100 Certification - Study Guide</title><link href="http://localhost:4000/blog/MD-100-Study-Guide" rel="alternate" type="text/html" title="Microsoft MD-100 Certification - Study Guide" /><published>2020-09-04T00:00:00-07:00</published><updated>2020-09-05T01:20:44-07:00</updated><id>http://localhost:4000/blog/MD-100-Study-Guide</id><content type="html" xml:base="http://localhost:4000/blog/MD-100-Study-Guide">&lt;p class=&quot;figcaption&quot;&gt;Microsoft 365 Certified - Modern Desktop Administrator - Associate&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-09-05T13:37:18-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">djsimtech</title><subtitle>This blog is for random tech related posts.</subtitle><entry><title type="html">PowerShell - The Very Basics</title><link href="http://localhost:4000/blog/PowerShell-Basics" rel="alternate" type="text/html" title="PowerShell - The Very Basics" /><published>2020-09-05T00:00:00-07:00</published><updated>2020-09-05T13:37:18-07:00</updated><id>http://localhost:4000/blog/PowerShell%20Basics</id><content type="html" xml:base="http://localhost:4000/blog/PowerShell-Basics">&lt;p class=&quot;figcaption&quot;&gt;Buckle Up….You’re in for a wild ride!&lt;/p&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#objective-mag&quot; id=&quot;markdown-toc-objective-mag&quot;&gt;Objective :mag:&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#prerequisites-white_check_mark&quot; id=&quot;markdown-toc-prerequisites-white_check_mark&quot;&gt;Prerequisites :white_check_mark:&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#background-bulb&quot; id=&quot;markdown-toc-background-bulb&quot;&gt;Background :bulb:&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#q-what-exactly-is-powershell&quot; id=&quot;markdown-toc-q-what-exactly-is-powershell&quot;&gt;Q: What exactly is PowerShell?&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#q-how-do-i-open-powershell&quot; id=&quot;markdown-toc-q-how-do-i-open-powershell&quot;&gt;Q: How Do I open PowerShell?&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#how-to-enter-commands&quot; id=&quot;markdown-toc-how-to-enter-commands&quot;&gt;How to Enter Commands&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#q-how-can-i-check-which-version-of-powershell-i-am-running&quot; id=&quot;markdown-toc-q-how-can-i-check-which-version-of-powershell-i-am-running&quot;&gt;Q: How Can I check which version of PowerShell I am running?&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#q-im-used-to-running-commands-in-the-command-prompt-will-those-commands-run-in-powershell-too&quot; id=&quot;markdown-toc-q-im-used-to-running-commands-in-the-command-prompt-will-those-commands-run-in-powershell-too&quot;&gt;Q: I’m used to running commands in the Command Prompt. Will those commands run in PowerShell too?&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#external-links-link&quot; id=&quot;markdown-toc-external-links-link&quot;&gt;External Links :link:&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#summary-clapper&quot; id=&quot;markdown-toc-summary-clapper&quot;&gt;Summary :clapper:&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#please-leave-a-comment-and-i-will-respond-back-speech_balloon&quot; id=&quot;markdown-toc-please-leave-a-comment-and-i-will-respond-back-speech_balloon&quot;&gt;Please leave a comment and I will respond back :speech_balloon:&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;objective-mag&quot;&gt;Objective :mag:&lt;/h2&gt;
+
+&lt;p&gt;To provide some very basic PowerShell commands that will get you started on your journey to scripting and automation.&lt;/p&gt;
+
+&lt;h2 id=&quot;prerequisites-white_check_mark&quot;&gt;Prerequisites :white_check_mark:&lt;/h2&gt;
+
+&lt;p&gt;General Windows Operating System Knowledge&lt;/p&gt;
+
+&lt;p&gt;PowerShell version 5 or higher&lt;/p&gt;
+
+&lt;p class=&quot;note&quot;&gt;We’ll cover how to check your PowerShell version below&lt;/p&gt;
+
+&lt;h2 id=&quot;background-bulb&quot;&gt;Background :bulb:&lt;/h2&gt;
+
+&lt;h5 id=&quot;q-what-exactly-is-powershell&quot;&gt;Q: What exactly is &lt;a href=&quot;https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7&quot;&gt;PowerShell?&lt;/a&gt;&lt;/h5&gt;
+
+&lt;p&gt;A: PowerShell is a cross-platform task automation and configuration management framework, consisting of a command-line shell and scripting language.&lt;/p&gt;
+
+&lt;h5 id=&quot;q-how-do-i-open-powershell&quot;&gt;Q: How Do I open PowerShell?&lt;/h5&gt;
+
+&lt;p&gt;Windows PowerShell comes included with Windows&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Option 1: Hit the Start button (On Windows 10) and start typing “PowerShell”. You can open it normally or right click and open as an Administrator&lt;/li&gt;
+  &lt;li&gt;Option 2: On the Keyboard hold down the “Windows Key + R” to bring up a run command. Type “PowerShell” and hit enter&lt;/li&gt;
+  &lt;li&gt;Option 3: In File Explorer, navigate to C:\Windows\System32\WindowsPowerShell\v1.0 and double click the powershell.exe icon.&lt;/li&gt;
+  &lt;li&gt;Like everything in Windows there are a dozen ways to accomplish the same task, so this is not an all-inclusive list. If you have a favorite way of opening PowerShell, let others know if the comments and I will add it to the list.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;how-to-enter-commands&quot;&gt;How to Enter Commands&lt;/h2&gt;
+
+&lt;h5 id=&quot;q-how-can-i-check-which-version-of-powershell-i-am-running&quot;&gt;Q: How Can I check which version of PowerShell I am running?&lt;/h5&gt;
+
+&lt;p&gt;A: Open a powershell console window and enter the following command&lt;/p&gt;
+
+&lt;div class=&quot;language-powershell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nf&quot;&gt;PS&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;C:\&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;$PSVersionTable&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;psversion&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;                                                                          
+&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Major&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Minor&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Build&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Revision&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;-----&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;-----&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;-----&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;--------&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;      &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;      &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;18362&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;752&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p class=&quot;note&quot;&gt;By looking at the “Major” and “Minor” columns, you can see that in this scenario, PowerShell is on Version 5.1&lt;/p&gt;
+
+&lt;h5 id=&quot;q-im-used-to-running-commands-in-the-command-prompt-will-those-commands-run-in-powershell-too&quot;&gt;Q: I’m used to running commands in the Command Prompt. Will those commands run in PowerShell too?&lt;/h5&gt;
+
+&lt;p&gt;A: In most cases yes. IpConfig and Ping are .exe’s and PowerShell can run those without issue:&lt;/p&gt;
+
+&lt;p&gt;Running &lt;a href=&quot;https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/ipconfig&quot;&gt;IPConfig&lt;/a&gt; in PowerShell:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-Powershell&quot;&gt;PS C:\&amp;gt; ipconfig.exe                                                                                       
+Windows IP Configuration
+
+Ethernet adapter vEthernet (External vSwitch):
+
+   Connection-specific DNS Suffix  . :
+   IPv4 Address. . . . . . . . . . . : 192.168.1.119
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.1.1
+
+PS C:\&amp;gt;                                
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Running a ping test on Google&lt;/p&gt;
+
+&lt;div class=&quot;language-powershell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nf&quot;&gt;PS&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;C:\&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ping&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;www.google.com&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;                                                                                
+&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Pinging&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;www.google.com&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;142.250.68.4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;bytes&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;of&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Reply&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;142.250.68.4:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;bytes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;26&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;ms&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;TTL&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;119&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Reply&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;142.250.68.4:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;bytes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;18&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;ms&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;TTL&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;119&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Reply&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;142.250.68.4:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;bytes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;19&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;ms&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;TTL&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;119&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Reply&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;142.250.68.4:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;bytes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;19&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;ms&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;TTL&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;119&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
+&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Ping&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;statistics&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;142.250.68.4:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Packets:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Sent&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Received&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Lost&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;loss&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Approximate&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;round&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;trip&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;times&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;milli-seconds:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Minimum&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;18&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;ms&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Maximum&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;26&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;ms&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Average&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;ms&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;external-links-link&quot;&gt;External Links :link:&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/powershell/&quot;&gt;Microsoft PowerShell Documentation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://powershell.org/&quot;&gt;PowerShell.org&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blog.feedspot.com/powershell_blogs/&quot;&gt;Top PowerShell Blogs for 2020&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;summary-clapper&quot;&gt;Summary :clapper:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Have a question?&lt;/li&gt;
+  &lt;li&gt;Find an error?&lt;/li&gt;
+  &lt;li&gt;Have a suggestion on how to improve this page?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;please-leave-a-comment-and-i-will-respond-back-speech_balloon&quot;&gt;Please leave a comment and I will respond back :speech_balloon:&lt;/h5&gt;
+
+&lt;script src=&quot;https://utteranc.es/client.js&quot; repo=&quot;djsimtech/blog&quot; issue-term=&quot;pathname&quot; theme=&quot;github-dark&quot; crossorigin=&quot;anonymous&quot; async=&quot;&quot;&gt;
+&lt;/script&gt;</content><author><name></name></author><category term="blog" /><summary type="html">Buckle Up….You’re in for a wild ride!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/psride.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/psride.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Microsoft MD-100 Certification - Study Guide</title><link href="http://localhost:4000/blog/MD-100-Study-Guide" rel="alternate" type="text/html" title="Microsoft MD-100 Certification - Study Guide" /><published>2020-09-04T00:00:00-07:00</published><updated>2020-09-05T01:20:44-07:00</updated><id>http://localhost:4000/blog/MD-100-Study-Guide</id><content type="html" xml:base="http://localhost:4000/blog/MD-100-Study-Guide">&lt;p class=&quot;figcaption&quot;&gt;Microsoft 365 Certified - Modern Desktop Administrator - Associate&lt;/p&gt;
 
 &lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#objective-mag&quot; id=&quot;markdown-toc-objective-mag&quot;&gt;Objective :mag:&lt;/a&gt;&lt;/li&gt;
