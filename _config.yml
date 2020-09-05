@@ -27,14 +27,12 @@ github_username:  djsimtech
 # Build settings
 theme: jekyll-theme-hydejack
 
-gems:
-  - jekyll-email-protect
-
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-email-protect
   - jekyll-seo-tag
+  - jemoji
 
   # Share Links
 share-links-active:
@@ -72,6 +70,22 @@ accent_color: rgb(79,177,186)
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+hydejack:
+  # Configure the order of complementary content on blog posts
+  post_addons: [about, newsletter, related, random, comments]
+
+  # Code blocks and tables "break" the layout by spanning the full available width.
+  # Set this to true if you want them to be the same width as other content.
+  no_break_layout: true
+
+  # Set to `true` to disable the dynamic Table of Contents on large screens.
+  no_toc: false
+
+  # When set to `true`, will not extend the content in the "third column" on large screens.
+  # Instead, all content will remains within the center column.
+  # Note that this will not affect the Table of Contents, use `no_toc` instead.
+  no_third_column: false
 
 links:
 - https://twitter.com/djsimtech

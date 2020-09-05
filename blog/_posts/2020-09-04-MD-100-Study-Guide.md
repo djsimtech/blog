@@ -46,10 +46,25 @@ Certification. The 2nd exam is the [MD-101](https://docs.microsoft.com/en-us/lea
  - Manage and protect devices
  - Manage apps and data.
 
-
 ##### Each exam costs $165.00
 
+## Microsoft Learning path
+##### Free training is available at the [MS Learn](https://docs.microsoft.com/en-us/learn/) site.
+
+##### The [MD-100 Learning Path](https://docs.microsoft.com/en-us/learn/paths/m365-getmodern/) contains 9 modules that align with the areas covered on the exam
+ - [Get Started with Microsoft 365](https://docs.microsoft.com/en-us/learn/modules/m365-get-modern-intro/) :suspect:
+ - [Analyze your device and app readiness for Windows 10](https://docs.microsoft.com/en-us/learn/modules/m365-modern-device-app/) :rage1:
+ - [Analyze your directory and network readiness for Microsoft 365](https://docs.microsoft.com/en-us/learn/modules/m365-directory-network-readiness/) :rage2:
+ - [Deliver Microsoft 365 Apps and business apps](https://docs.microsoft.com/en-us/learn/modules/m365-office-lob-apps/) :rage3:
+ - [Migrate user files and settings in Microsoft 365](https://docs.microsoft.com/en-us/learn/modules/m365-user-files-settings/) :rage4:
+ - [Update your security and compliance configuration – Windows 10 and Microsoft 365 Apps](https://docs.microsoft.com/en-us/learn/modules/m365-modern-security-and-compliance/) :hurtrealbad:
+ - [Deploy, upgrade, and migrate to Windows 10](https://docs.microsoft.com/en-us/learn/modules/m365-modern-os-deployment/) :feelsgood:
+ - [Learn about Windows and Microsoft 365 Apps servicing in Microsoft 365](https://docs.microsoft.com/en-us/learn/modules/m365-modern-windows-office-servicing/) :goberserk:
+ - [Train users on the new Windows and Microsoft 365 Apps features](https://docs.microsoft.com/en-us/learn/modules/m365-modern-usercomm-training/) :godmode:
+
 ## External Links
+
+##### the following links were gathered from the 9 modules in the MD-100 learning path
 
 [Certification Page](https://docs.microsoft.com/en-us/learn/certifications/exams/md-100)
 
@@ -139,6 +154,17 @@ Certification. The 2nd exam is the [MD-101](https://docs.microsoft.com/en-us/lea
 
 [Provisioning packages for Windows 10](https://docs.microsoft.com/en-us/windows/configuration/provisioning-packages/provisioning-packages)
 
+## Other Training Options
+- [Pluralsight Course](https://www.pluralsight.com/paths/microsoft-modern-desktop-administrator-windows-10-md-100)
+- [Udemy Course](https://www.udemy.com/topic/microsoft-md-100/)
+- [CBT Nuggets](https://www.cbtnuggets.com/blog/certifications/microsoft/new-training-windows-10-md-100)
+- [ITPRO Course](https://www.itpro.tv/courses/microsoft/windows-10-md100/)
+- [Lynda Course](https://www.lynda.com/learning-paths/IT/prepare-for-the-microsoft-md-100-exam)
+
+## Summary
+- Have a question?
+- Find an error?
+- Have a suggestion on how to improve this page?
 
 
 <script src="https://utteranc.es/client.js"
