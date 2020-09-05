@@ -13,23 +13,23 @@ Microsoft 365 Certified - Modern Desktop Administrator - Associate
 - Table of Contents
 {:toc}
 
-## Objective
+## Objective :mag:
 
 To provide a one-stop shop for all the topics covered in the [Microsoft MD-100 Certification](https://docs.microsoft.com/en-us/learn/certifications/m365-modern-desktop) exam.
 
 
-## Prerequisites
+## Prerequisites :white_check_mark:
 
 General Windows Operating System Knowledge - This exam focuses on [Windows 10](https://www.microsoft.com/en-us/windows/get-windows-10)
 
 (Optional) Account at the [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) site to track your progress as you progress through the training modules
 
 
-## Background
+## Background :bulb:
 
 Modern Desktop Administrators deploy, configure, secure, manage, and monitor devices and client applications in an enterprise environment.
 
-## Exam Details
+## Exam Details :cold_sweat:
 
 The [MD-100](https://docs.microsoft.com/en-us/learn/certifications/exams/md-100) is 1 of 2 exams you'll need to pass in order to obtain your "Microsoft 365 Certified - Modern Desktop Administrator - Associate"
 Certification. The 2nd exam is the [MD-101](https://docs.microsoft.com/en-us/learn/certifications/exams/md-101)
@@ -48,7 +48,8 @@ Certification. The 2nd exam is the [MD-101](https://docs.microsoft.com/en-us/lea
 
 ##### Each exam costs $165.00
 
-## Microsoft Learning path
+## Microsoft Learning path :mortar_board:
+
 ##### Free training is available at the [MS Learn](https://docs.microsoft.com/en-us/learn/) site.
 
 ##### The [MD-100 Learning Path](https://docs.microsoft.com/en-us/learn/paths/m365-getmodern/) contains 9 modules that align with the areas covered on the exam
@@ -154,17 +155,19 @@ Certification. The 2nd exam is the [MD-101](https://docs.microsoft.com/en-us/lea
 
 [Provisioning packages for Windows 10](https://docs.microsoft.com/en-us/windows/configuration/provisioning-packages/provisioning-packages)
 
-## Other Training Options
+## Other Training Options :muscle:
 - [Pluralsight Course](https://www.pluralsight.com/paths/microsoft-modern-desktop-administrator-windows-10-md-100)
 - [Udemy Course](https://www.udemy.com/topic/microsoft-md-100/)
 - [CBT Nuggets](https://www.cbtnuggets.com/blog/certifications/microsoft/new-training-windows-10-md-100)
 - [ITPRO Course](https://www.itpro.tv/courses/microsoft/windows-10-md100/)
 - [Lynda Course](https://www.lynda.com/learning-paths/IT/prepare-for-the-microsoft-md-100-exam)
 
-## Summary
+## Summary 
 - Have a question?
 - Find an error?
 - Have a suggestion on how to improve this page?
+
+##### Please leave a comment and I will respond back :speech_balloon:
 
 
 <script src="https://utteranc.es/client.js"

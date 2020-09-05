@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-09-04T21:46:07-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">djsimtech</title><subtitle>This blog is for random tech related posts.</subtitle><entry><title type="html">Microsoft MD-100 Certification - Study Guide</title><link href="http://localhost:4000/blog/MD-100-Study-Guide" rel="alternate" type="text/html" title="Microsoft MD-100 Certification - Study Guide" /><published>2020-09-04T00:00:00-07:00</published><updated>2020-09-04T00:00:00-07:00</updated><id>http://localhost:4000/blog/MD-100-Study-Guide</id><content type="html" xml:base="http://localhost:4000/blog/MD-100-Study-Guide">&lt;p class=&quot;figcaption&quot;&gt;Microsoft 365 Certified - Modern Desktop Administrator - Associate&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-09-04T22:13:30-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">djsimtech</title><subtitle>This blog is for random tech related posts.</subtitle><entry><title type="html">Microsoft MD-100 Certification - Study Guide</title><link href="http://localhost:4000/blog/MD-100-Study-Guide" rel="alternate" type="text/html" title="Microsoft MD-100 Certification - Study Guide" /><published>2020-09-04T00:00:00-07:00</published><updated>2020-09-04T00:00:00-07:00</updated><id>http://localhost:4000/blog/MD-100-Study-Guide</id><content type="html" xml:base="http://localhost:4000/blog/MD-100-Study-Guide">&lt;p class=&quot;figcaption&quot;&gt;Microsoft 365 Certified - Modern Desktop Administrator - Associate&lt;/p&gt;
 
 &lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#objective&quot; id=&quot;markdown-toc-objective&quot;&gt;Objective&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#prerequisites&quot; id=&quot;markdown-toc-prerequisites&quot;&gt;Prerequisites&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#background&quot; id=&quot;markdown-toc-background&quot;&gt;Background&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#exam-details&quot; id=&quot;markdown-toc-exam-details&quot;&gt;Exam Details&lt;/a&gt;    &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#objective-mag&quot; id=&quot;markdown-toc-objective-mag&quot;&gt;Objective :mag:&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#prerequisites-white_check_mark&quot; id=&quot;markdown-toc-prerequisites-white_check_mark&quot;&gt;Prerequisites :white_check_mark:&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#background-bulb&quot; id=&quot;markdown-toc-background-bulb&quot;&gt;Background :bulb:&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#exam-details-cold_sweat&quot; id=&quot;markdown-toc-exam-details-cold_sweat&quot;&gt;Exam Details :cold_sweat:&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#the-md-100-exam-measures-your-ability-to-accomplish-the-following-technical-tasks&quot; id=&quot;markdown-toc-the-md-100-exam-measures-your-ability-to-accomplish-the-following-technical-tasks&quot;&gt;The MD-100 exam measures your ability to accomplish the following technical tasks:&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#the-md-101-exam-measures-your-ability-to-accomplish-the-following-technical-tasks&quot; id=&quot;markdown-toc-the-md-101-exam-measures-your-ability-to-accomplish-the-following-technical-tasks&quot;&gt;The MD-101 exam measures your ability to accomplish the following technical tasks:&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#each-exam-costs-16500&quot; id=&quot;markdown-toc-each-exam-costs-16500&quot;&gt;Each exam costs $165.00&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#microsoft-learning-path&quot; id=&quot;markdown-toc-microsoft-learning-path&quot;&gt;Microsoft Learning path&lt;/a&gt;    &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#microsoft-learning-path-mortar_board&quot; id=&quot;markdown-toc-microsoft-learning-path-mortar_board&quot;&gt;Microsoft Learning path :mortar_board:&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#free-training-is-available-at-the-ms-learn-site&quot; id=&quot;markdown-toc-free-training-is-available-at-the-ms-learn-site&quot;&gt;Free training is available at the MS Learn site.&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#the-md-100-learning-path-contains-9-modules-that-align-with-the-areas-covered-on-the-exam&quot; id=&quot;markdown-toc-the-md-100-learning-path-contains-9-modules-that-align-with-the-areas-covered-on-the-exam&quot;&gt;The MD-100 Learning Path contains 9 modules that align with the areas covered on the exam&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
@@ -19,25 +19,28 @@
       &lt;li&gt;&lt;a href=&quot;#the-following-links-were-gathered-from-the-9-modules-in-the-md-100-learning-path&quot; id=&quot;markdown-toc-the-following-links-were-gathered-from-the-9-modules-in-the-md-100-learning-path&quot;&gt;the following links were gathered from the 9 modules in the MD-100 learning path&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#other-training-options&quot; id=&quot;markdown-toc-other-training-options&quot;&gt;Other Training Options&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#summary&quot; id=&quot;markdown-toc-summary&quot;&gt;Summary&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#other-training-options-muscle&quot; id=&quot;markdown-toc-other-training-options-muscle&quot;&gt;Other Training Options :muscle:&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#summary&quot; id=&quot;markdown-toc-summary&quot;&gt;Summary&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#please-leave-a-comment-and-i-will-respond-back-speech_balloon&quot; id=&quot;markdown-toc-please-leave-a-comment-and-i-will-respond-back-speech_balloon&quot;&gt;Please leave a comment and I will respond back :speech_balloon:&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;objective&quot;&gt;Objective&lt;/h2&gt;
+&lt;h2 id=&quot;objective-mag&quot;&gt;Objective :mag:&lt;/h2&gt;
 
 &lt;p&gt;To provide a one-stop shop for all the topics covered in the &lt;a href=&quot;https://docs.microsoft.com/en-us/learn/certifications/m365-modern-desktop&quot;&gt;Microsoft MD-100 Certification&lt;/a&gt; exam.&lt;/p&gt;
 
-&lt;h2 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h2&gt;
+&lt;h2 id=&quot;prerequisites-white_check_mark&quot;&gt;Prerequisites :white_check_mark:&lt;/h2&gt;
 
 &lt;p&gt;General Windows Operating System Knowledge - This exam focuses on &lt;a href=&quot;https://www.microsoft.com/en-us/windows/get-windows-10&quot;&gt;Windows 10&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;(Optional) Account at the &lt;a href=&quot;https://docs.microsoft.com/en-us/learn/&quot;&gt;Microsoft Learn&lt;/a&gt; site to track your progress as you progress through the training modules&lt;/p&gt;
 
-&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+&lt;h2 id=&quot;background-bulb&quot;&gt;Background :bulb:&lt;/h2&gt;
 
 &lt;p&gt;Modern Desktop Administrators deploy, configure, secure, manage, and monitor devices and client applications in an enterprise environment.&lt;/p&gt;
 
-&lt;h2 id=&quot;exam-details&quot;&gt;Exam Details&lt;/h2&gt;
+&lt;h2 id=&quot;exam-details-cold_sweat&quot;&gt;Exam Details :cold_sweat:&lt;/h2&gt;
 
 &lt;p&gt;The &lt;a href=&quot;https://docs.microsoft.com/en-us/learn/certifications/exams/md-100&quot;&gt;MD-100&lt;/a&gt; is 1 of 2 exams you’ll need to pass in order to obtain your “Microsoft 365 Certified - Modern Desktop Administrator - Associate”
 Certification. The 2nd exam is the &lt;a href=&quot;https://docs.microsoft.com/en-us/learn/certifications/exams/md-101&quot;&gt;MD-101&lt;/a&gt;&lt;/p&gt;
@@ -60,7 +63,8 @@ Certification. The 2nd exam is the &lt;a href=&quot;https://docs.microsoft.com/e
 
 &lt;h5 id=&quot;each-exam-costs-16500&quot;&gt;Each exam costs $165.00&lt;/h5&gt;
 
-&lt;h2 id=&quot;microsoft-learning-path&quot;&gt;Microsoft Learning path&lt;/h2&gt;
+&lt;h2 id=&quot;microsoft-learning-path-mortar_board&quot;&gt;Microsoft Learning path :mortar_board:&lt;/h2&gt;
+
 &lt;h5 id=&quot;free-training-is-available-at-the-ms-learn-site&quot;&gt;Free training is available at the &lt;a href=&quot;https://docs.microsoft.com/en-us/learn/&quot;&gt;MS Learn&lt;/a&gt; site.&lt;/h5&gt;
 
 &lt;h5 id=&quot;the-md-100-learning-path-contains-9-modules-that-align-with-the-areas-covered-on-the-exam&quot;&gt;The &lt;a href=&quot;https://docs.microsoft.com/en-us/learn/paths/m365-getmodern/&quot;&gt;MD-100 Learning Path&lt;/a&gt; contains 9 modules that align with the areas covered on the exam&lt;/h5&gt;
@@ -168,7 +172,7 @@ Certification. The 2nd exam is the &lt;a href=&quot;https://docs.microsoft.com/e
 
 &lt;p&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/windows/configuration/provisioning-packages/provisioning-packages&quot;&gt;Provisioning packages for Windows 10&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;other-training-options&quot;&gt;Other Training Options&lt;/h2&gt;
+&lt;h2 id=&quot;other-training-options-muscle&quot;&gt;Other Training Options :muscle:&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.pluralsight.com/paths/microsoft-modern-desktop-administrator-windows-10-md-100&quot;&gt;Pluralsight Course&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.udemy.com/topic/microsoft-md-100/&quot;&gt;Udemy Course&lt;/a&gt;&lt;/li&gt;
@@ -183,6 +187,8 @@ Certification. The 2nd exam is the &lt;a href=&quot;https://docs.microsoft.com/e
   &lt;li&gt;Find an error?&lt;/li&gt;
   &lt;li&gt;Have a suggestion on how to improve this page?&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h5 id=&quot;please-leave-a-comment-and-i-will-respond-back-speech_balloon&quot;&gt;Please leave a comment and I will respond back :speech_balloon:&lt;/h5&gt;
 
 &lt;script src=&quot;https://utteranc.es/client.js&quot; repo=&quot;djsimtech/blog&quot; issue-term=&quot;pathname&quot; theme=&quot;github-dark&quot; crossorigin=&quot;anonymous&quot; async=&quot;&quot;&gt;
 &lt;/script&gt;</content><author><name></name></author><category term="blog" /><summary type="html">Microsoft 365 Certified - Modern Desktop Administrator - Associate</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/MD-100.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/MD-100.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
