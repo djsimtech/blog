@@ -45,14 +45,14 @@ Powered by Hydejack v9.0.4 <https://hydejack.com/>
 <meta property="og:locale" content="en" />
 <meta name="description" content="Barely Scratching the surface with PowerShell’s Basic Commands" />
 <meta property="og:description" content="Barely Scratching the surface with PowerShell’s Basic Commands" />
-<link rel="canonical" href="http://localhost:4000/blog/PowerShell-Basics" />
-<meta property="og:url" content="http://localhost:4000/blog/PowerShell-Basics" />
+<link rel="canonical" href="http://localhost:4000/blog/2020/09/05/PowerShell-Basics.html" />
+<meta property="og:url" content="http://localhost:4000/blog/2020/09/05/PowerShell-Basics.html" />
 <meta property="og:site_name" content="djsimtech" />
 <meta property="og:image" content="http://localhost:4000/assets/img/blog/psride.jpg" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-09-05T00:00:00-07:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/dannygalaxy_cropped.jpg"}},"headline":"PowerShell - The Very Basics","dateModified":"2020-09-05T13:37:18-07:00","datePublished":"2020-09-05T00:00:00-07:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/PowerShell-Basics"},"image":"http://localhost:4000/assets/img/blog/psride.jpg","description":"Barely Scratching the surface with PowerShell’s Basic Commands","url":"http://localhost:4000/blog/PowerShell-Basics","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/dannygalaxy_cropped.jpg"}},"headline":"PowerShell - The Very Basics","dateModified":"2020-09-08T17:24:10-07:00","datePublished":"2020-09-05T00:00:00-07:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/2020/09/05/PowerShell-Basics.html"},"image":"http://localhost:4000/assets/img/blog/psride.jpg","description":"Barely Scratching the surface with PowerShell’s Basic Commands","url":"http://localhost:4000/blog/2020/09/05/PowerShell-Basics.html","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -81,7 +81,7 @@ Powered by Hydejack v9.0.4 <https://hydejack.com/>
 <meta name="generator" content="Hydejack v9.0.4" />
 
 
-<link rel="alternate" href="http://localhost:4000/blog/AZ-900-Study-Guide" hreflang="en">
+<link rel="alternate" href="http://localhost:4000/blog/2020/09/03/AZ-900-Study-Guide.html" hreflang="en">
 
 <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="djsimtech" />
 
@@ -176,7 +176,7 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);
 
 
 
-<article id="post-blog-PowerShell Basics" class="page post mb6" role="article">
+<article id="post-blog-2020-09-05-PowerShell Basics" class="page post mb6" role="article">
   <header>
     <h1 class="post-title flip-project-title">
       
@@ -258,9 +258,9 @@ in <span>Blog</span>
     </ul>
   </li>
   <li>
-<a href="#how-to-enter-commands" id="markdown-toc-how-to-enter-commands">How to Enter Commands</a>    <ul>
+<a href="#how-to-enter-commands-computer" id="markdown-toc-how-to-enter-commands-computer">How to Enter Commands <img class="emoji" title=":computer:" alt=":computer:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4bb.png" height="20" width="20"></a>    <ul>
       <li><a href="#q-how-can-i-check-which-version-of-powershell-i-am-running" id="markdown-toc-q-how-can-i-check-which-version-of-powershell-i-am-running">Q: How Can I check which version of PowerShell I am running?</a></li>
-      <li><a href="#q-im-used-to-running-commands-in-the-command-prompt-will-those-commands-run-in-powershell-too" id="markdown-toc-q-im-used-to-running-commands-in-the-command-prompt-will-those-commands-run-in-powershell-too">Q: I’m used to running commands in the Command Prompt. Will those commands run in PowerShell too?</a></li>
+      <li><a href="#q-how-do-you-enter-commands-in-powershell" id="markdown-toc-q-how-do-you-enter-commands-in-powershell">Q: How do you enter commands in PowerShell?</a></li>
     </ul>
   </li>
   <li><a href="#external-links-link" id="markdown-toc-external-links-link">External Links <img class="emoji" title=":link:" alt=":link:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f517.png" height="20" width="20"></a></li>
@@ -274,16 +274,14 @@ in <span>Blog</span>
 <h2 id="objective-mag">Objective <img class="emoji" title=":mag:" alt=":mag:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f50d.png" height="20" width="20">
 </h2>
 
-<p>To provide some very basic PowerShell commands that will get you started on your journey to scripting and automation.</p>
+<p>To document some very basic PowerShell commands that I have learned so I can keep them in one place.</p>
 
 <h2 id="prerequisites-white_check_mark">Prerequisites <img class="emoji" title=":white_check_mark:" alt=":white_check_mark:" src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png" height="20" width="20">
 </h2>
 
 <p>General Windows Operating System Knowledge</p>
 
-<p>PowerShell version 5 or higher</p>
-
-<p class="note">We’ll cover how to check your PowerShell version below</p>
+<p>PowerShell version 5 or higher (Command below will show what version is running)</p>
 
 <h2 id="background-bulb">Background <img class="emoji" title=":bulb:" alt=":bulb:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4a1.png" height="20" width="20">
 </h2>
@@ -291,7 +289,7 @@ in <span>Blog</span>
 <h5 id="q-what-exactly-is-powershell">Q: What exactly is <a href="https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7">PowerShell?</a>
 </h5>
 
-<p>A: PowerShell is a cross-platform task automation and configuration management framework, consisting of a command-line shell and scripting language.</p>
+<p>A: According to Microsoft, PowerShell is a cross-platform task automation and configuration management framework, consisting of a command-line shell and scripting language.</p>
 
 <h5 id="q-how-do-i-open-powershell">Q: How Do I open PowerShell?</h5>
 
@@ -303,7 +301,8 @@ in <span>Blog</span>
   <li>Like everything in Windows there are a dozen ways to accomplish the same task, so this is not an all-inclusive list. If you have a favorite way of opening PowerShell, let others know if the comments and I will add it to the list.</li>
 </ul>
 
-<h2 id="how-to-enter-commands">How to Enter Commands</h2>
+<h2 id="how-to-enter-commands-computer">How to Enter Commands <img class="emoji" title=":computer:" alt=":computer:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4bb.png" height="20" width="20">
+</h2>
 
 <h5 id="q-how-can-i-check-which-version-of-powershell-i-am-running">Q: How Can I check which version of PowerShell I am running?</h5>
 
@@ -317,39 +316,16 @@ in <span>Blog</span>
 
 <p class="note">By looking at the “Major” and “Minor” columns, you can see that in this scenario, PowerShell is on Version 5.1</p>
 
-<h5 id="q-im-used-to-running-commands-in-the-command-prompt-will-those-commands-run-in-powershell-too">Q: I’m used to running commands in the Command Prompt. Will those commands run in PowerShell too?</h5>
+<h5 id="q-how-do-you-enter-commands-in-powershell">Q: How do you enter commands in PowerShell?</h5>
 
-<p>A: In most cases yes. IpConfig and Ping are .exe’s and PowerShell can run those without issue:</p>
+<p>A: You enter commands using a Verb-Noun syntax. Four examples below show the format used.</p>
 
-<p>Running <a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/ipconfig">IPConfig</a> in PowerShell:</p>
-
-<pre><code class="language-Powershell">PS C:\&gt; ipconfig.exe                                                                                       
-Windows IP Configuration
-
-Ethernet adapter vEthernet (External vSwitch):
-
-   Connection-specific DNS Suffix  . :
-   IPv4 Address. . . . . . . . . . . : 192.168.1.119
-   Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Default Gateway . . . . . . . . . : 192.168.1.1
-
-PS C:\&gt;                                
-</code></pre>
-
-<p>Running a ping test on Google</p>
-
-<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">PS</span><span class="w"> </span><span class="nx">C:\</span><span class="err">&gt;</span><span class="w"> </span><span class="nx">ping</span><span class="w"> </span><span class="nx">www.google.com</span><span class="w">                                                                                
-</span><span class="nf">Pinging</span><span class="w"> </span><span class="nx">www.google.com</span><span class="w"> </span><span class="p">[</span><span class="mf">142.250.68.4</span><span class="p">]</span><span class="w"> </span><span class="nx">with</span><span class="w"> </span><span class="nx">32</span><span class="w"> </span><span class="nx">bytes</span><span class="w"> </span><span class="nx">of</span><span class="w"> </span><span class="nx">data:</span><span class="w">
-</span><span class="nf">Reply</span><span class="w"> </span><span class="nx">from</span><span class="w"> </span><span class="nx">142.250.68.4:</span><span class="w"> </span><span class="nx">bytes</span><span class="o">=</span><span class="mi">32</span><span class="w"> </span><span class="nf">time</span><span class="o">=</span><span class="mi">26</span><span class="nf">ms</span><span class="w"> </span><span class="nx">TTL</span><span class="o">=</span><span class="mi">119</span><span class="w">
-</span><span class="nf">Reply</span><span class="w"> </span><span class="nx">from</span><span class="w"> </span><span class="nx">142.250.68.4:</span><span class="w"> </span><span class="nx">bytes</span><span class="o">=</span><span class="mi">32</span><span class="w"> </span><span class="nf">time</span><span class="o">=</span><span class="mi">18</span><span class="nf">ms</span><span class="w"> </span><span class="nx">TTL</span><span class="o">=</span><span class="mi">119</span><span class="w">
-</span><span class="nf">Reply</span><span class="w"> </span><span class="nx">from</span><span class="w"> </span><span class="nx">142.250.68.4:</span><span class="w"> </span><span class="nx">bytes</span><span class="o">=</span><span class="mi">32</span><span class="w"> </span><span class="nf">time</span><span class="o">=</span><span class="mi">19</span><span class="nf">ms</span><span class="w"> </span><span class="nx">TTL</span><span class="o">=</span><span class="mi">119</span><span class="w">
-</span><span class="nf">Reply</span><span class="w"> </span><span class="nx">from</span><span class="w"> </span><span class="nx">142.250.68.4:</span><span class="w"> </span><span class="nx">bytes</span><span class="o">=</span><span class="mi">32</span><span class="w"> </span><span class="nf">time</span><span class="o">=</span><span class="mi">19</span><span class="nf">ms</span><span class="w"> </span><span class="nx">TTL</span><span class="o">=</span><span class="mi">119</span><span class="w">
-
-</span><span class="nf">Ping</span><span class="w"> </span><span class="nx">statistics</span><span class="w"> </span><span class="nx">for</span><span class="w"> </span><span class="nx">142.250.68.4:</span><span class="w">
-    </span><span class="nf">Packets:</span><span class="w"> </span><span class="nx">Sent</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">4</span><span class="p">,</span><span class="w"> </span><span class="nf">Received</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">4</span><span class="p">,</span><span class="w"> </span><span class="nf">Lost</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="p">(</span><span class="mi">0</span><span class="o">%</span><span class="w"> </span><span class="nf">loss</span><span class="p">),</span><span class="w">
-</span><span class="nf">Approximate</span><span class="w"> </span><span class="nx">round</span><span class="w"> </span><span class="nx">trip</span><span class="w"> </span><span class="nx">times</span><span class="w"> </span><span class="nx">in</span><span class="w"> </span><span class="nx">milli-seconds:</span><span class="w">
-    </span><span class="nf">Minimum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">18</span><span class="nf">ms</span><span class="p">,</span><span class="w"> </span><span class="nx">Maximum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">26</span><span class="nf">ms</span><span class="p">,</span><span class="w"> </span><span class="nx">Average</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">20</span><span class="nf">ms</span><span class="w">
-</span></code></pre></div></div>
+<ul>
+  <li>Get-EventLog</li>
+  <li>Format-Table</li>
+  <li>Get-Process</li>
+  <li>Stop-Process</li>
+</ul>
 
 <h2 id="external-links-link">External Links <img class="emoji" title=":link:" alt=":link:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f517.png" height="20" width="20">
 </h2>
@@ -537,8 +513,9 @@ PS C:\&gt;
     
 
 
-  <aside class="related mb4" role="complementary">  <h2 class="hr-bottom">Related Posts</h2>  <ul class="related-posts">                  <li class="h4">  <a href="/blog/MD-100-Study-Guide" class="flip-title"><span>Microsoft MD-100 Certification - Study Guide</span></a>  <time class="faded fine" datetime="2020-09-04T00:00:00-07:00">2020-09-04</time>
-</li>                        <li class="h4">  <a href="/blog/AZ-900-Study-Guide" class="flip-title"><span>Microsoft AZ-900 Certification - Study Guide</span></a>  <time class="faded fine" datetime="2020-09-03T00:00:00-07:00">2020-09-03</time>
+  <aside class="related mb4" role="complementary">  <h2 class="hr-bottom">Related Posts</h2>  <ul class="related-posts">                  <li class="h4">  <a href="/blog/2020/09/06/PowerShell-Help.html" class="flip-title"><span>PowerShell - Using the Help System</span></a>  <time class="faded fine" datetime="2020-09-06T00:00:00-07:00">2020-09-06</time>
+</li>                        <li class="h4">  <a href="/blog/2020/09/04/MD-100-Study-Guide.html" class="flip-title"><span>Microsoft MD-100 Certification - Study Guide</span></a>  <time class="faded fine" datetime="2020-09-04T00:00:00-07:00">2020-09-04</time>
+</li>                        <li class="h4">  <a href="/blog/2020/09/03/AZ-900-Study-Guide.html" class="flip-title"><span>Microsoft AZ-900 Certification - Study Guide</span></a>  <time class="faded fine" datetime="2020-09-03T00:00:00-07:00">2020-09-03</time>
 </li>            </ul></aside>
 
   

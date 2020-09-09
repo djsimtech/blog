@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/blog/AZ-900-Study-Guide</loc>
+<loc>http://localhost:4000/blog/2020/09/03/AZ-900-Study-Guide.html</loc>
 <lastmod>2020-09-05T02:09:02-07:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/blog/MD-100-Study-Guide</loc>
+<loc>http://localhost:4000/blog/2020/09/04/MD-100-Study-Guide.html</loc>
 <lastmod>2020-09-05T01:20:44-07:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/blog/PowerShell-Basics</loc>
-<lastmod>2020-09-05T13:37:18-07:00</lastmod>
+<loc>http://localhost:4000/blog/2020/09/05/PowerShell-Basics.html</loc>
+<lastmod>2020-09-08T17:24:10-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blog/2020/09/06/PowerShell-Help.html</loc>
+<lastmod>2020-09-06T12:38:40-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/about/</loc>
@@ -18,7 +22,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
-<lastmod>2020-09-04T21:45:21-07:00</lastmod>
+<lastmod>2020-09-05T21:37:04-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/blog/</loc>

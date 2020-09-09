@@ -59,7 +59,7 @@ plugins:
 
 copyright: ''
 
-permalink: /blog/:title
+# permalink: /blog/:title
 
 # Optional. The default date format, used if none is specified in the tag.
 last-modified-at:

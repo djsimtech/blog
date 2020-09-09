@@ -39,17 +39,20 @@ Powered by Hydejack v9.0.4 <https://hydejack.com/>
   
     
 <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Blog | djsimtech</title>
+<title>PowerShell - Using the Help System | djsimtech</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Blog" />
+<meta property="og:title" content="PowerShell - Using the Help System" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="The djsimtech blog." />
-<meta property="og:description" content="The djsimtech blog." />
-<link rel="canonical" href="http://localhost:4000/blog/" />
-<meta property="og:url" content="http://localhost:4000/blog/" />
+<meta name="description" content="Barely Scratching the surface with PowerShell’s Basic Commands" />
+<meta property="og:description" content="Barely Scratching the surface with PowerShell’s Basic Commands" />
+<link rel="canonical" href="http://localhost:4000/blog/2020/09/06/PowerShell-Help.html" />
+<meta property="og:url" content="http://localhost:4000/blog/2020/09/06/PowerShell-Help.html" />
 <meta property="og:site_name" content="djsimtech" />
+<meta property="og:image" content="http://localhost:4000/assets/img/blog/psride.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-09-06T00:00:00-07:00" />
 <script type="application/ld+json">
-{"@type":"WebPage","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/dannygalaxy_cropped.jpg"}},"headline":"Blog","dateModified":"2020-09-03T16:51:12-07:00","description":"The djsimtech blog.","url":"http://localhost:4000/blog/","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/dannygalaxy_cropped.jpg"}},"headline":"PowerShell - Using the Help System","dateModified":"2020-09-06T12:38:40-07:00","datePublished":"2020-09-06T00:00:00-07:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/2020/09/06/PowerShell-Help.html"},"image":"http://localhost:4000/assets/img/blog/psride.jpg","description":"Barely Scratching the surface with PowerShell’s Basic Commands","url":"http://localhost:4000/blog/2020/09/06/PowerShell-Help.html","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -150,14 +153,7 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);
   
 
 
-<hy-push-state
-  id="_pushState"
-  replace-selector="#_main"
-  link-selector="a[href]:not([href^='/assets/']):not(.external):not(.no-push-state)"
-  script-selector="script"
-  duration="500"
-  hashchange
->
+<hy-push-state id="_pushState" replace-selector="#_main" link-selector="a[href]:not([href^='/assets/']):not(.external):not(.no-push-state)" script-selector="script" duration="500" hashchange>
   
   <div id="_navbar" class="navbar fixed-top">
   <div class="content">
@@ -171,18 +167,9 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);
     </div>
   </div>
 </div>
-<hr class="sr-only" hidden />
+<hr class="sr-only" hidden>
 
-  <main
-  id="_main"
-  class="content layout-blog"
-  role="main"
->
-  
-
-
-  
-
+  <main id="_main" class="content layout-post" role="main">
   
 
 
@@ -192,9 +179,9 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);
 <article id="post-blog-2020-09-06-PowerShell Help" class="page post mb6" role="article">
   <header>
     <h1 class="post-title flip-project-title">
-      <a href="/blog/2020/09/06/PowerShell-Help.html" class="flip-title">
+      
         PowerShell - Using the Help System
-      </a>
+      
     </h1>
 
     <div class="post-date">
@@ -232,25 +219,15 @@ in <span>Blog</span>
 
     
     
-      <a href="/blog/2020/09/06/PowerShell-Help.html" class="no-hover no-print-link flip-project" tabindex="-1">
+      
         <div class="lead aspect-ratio sixteen-nine flip-project-img">
           
 
 
-<img
-  
-    src="/assets/img/blog/psride.jpg"
-  
-  alt="PowerShell - Using the Help System"
-  
-  
-  width="864"
-  height="486"
-  loading="lazy"
-/>
+<img src="/assets/img/blog/psride.jpg" alt="PowerShell - Using the Help System" width="864" height="486" loading="lazy">
 
         </div>
-      </a>
+      
       
     
 
@@ -259,7 +236,7 @@ in <span>Blog</span>
 
 
   
-    <p class="note-sm" >
+    <p class="note-sm">
       Barely Scratching the surface with PowerShell’s Basic Commands
 
     </p>
@@ -271,345 +248,265 @@ in <span>Blog</span>
   
     <p class="figcaption">Help is on the way</p>
 
+<ul id="markdown-toc">
+  <li><a href="#objective-mag" id="markdown-toc-objective-mag">Objective <img class="emoji" title=":mag:" alt=":mag:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f50d.png" height="20" width="20"></a></li>
+  <li><a href="#prerequisites-white_check_mark" id="markdown-toc-prerequisites-white_check_mark">Prerequisites <img class="emoji" title=":white_check_mark:" alt=":white_check_mark:" src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png" height="20" width="20"></a></li>
+  <li>
+<a href="#using-the-powershell-help-system" id="markdown-toc-using-the-powershell-help-system">Using the PowerShell Help System</a>    <ul>
+      <li><a href="#update-your-powershell-help-files" id="markdown-toc-update-your-powershell-help-files">Update your PowerShell Help Files</a></li>
+      <li><a href="#get-a-list-of-modules-that-support-updatable-help" id="markdown-toc-get-a-list-of-modules-that-support-updatable-help">Get a list of Modules that support Updatable Help</a></li>
+      <li><a href="#obtain-full-help-file-from-on-a-specific-cmdlet" id="markdown-toc-obtain-full-help-file-from-on-a-specific-cmdlet">Obtain full help file from on a specific cmdlet</a></li>
+    </ul>
+  </li>
+  <li>
+<a href="#summary-clapper" id="markdown-toc-summary-clapper">Summary <img class="emoji" title=":clapper:" alt=":clapper:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3ac.png" height="20" width="20"></a>    <ul>
+      <li><a href="#please-leave-a-comment-and-i-will-respond-back-speech_balloon" id="markdown-toc-please-leave-a-comment-and-i-will-respond-back-speech_balloon">Please leave a comment and I will respond back <img class="emoji" title=":speech_balloon:" alt=":speech_balloon:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4ac.png" height="20" width="20"></a></li>
+    </ul>
+  </li>
+</ul>
 
-    
-    
-    <footer>
-      <p class="read-more">
-        Continue reading <a class="heading flip-title" href="/blog/2020/09/06/PowerShell-Help.html">PowerShell - Using the Help System</a>
+<h2 id="objective-mag">Objective <img class="emoji" title=":mag:" alt=":mag:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f50d.png" height="20" width="20">
+</h2>
 
-      </p>
-    </footer>
+<p>To document some use cases on how to the the Help System to find what you need in PowerShell</p>
+
+<h2 id="prerequisites-white_check_mark">Prerequisites <img class="emoji" title=":white_check_mark:" alt=":white_check_mark:" src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png" height="20" width="20">
+</h2>
+
+<p>General Windows Operating System Knowledge</p>
+
+<p>PowerShell version 5 or higher</p>
+
+<p class="note">We’ll cover how to check your PowerShell version below</p>
+
+<h2 id="using-the-powershell-help-system">Using the PowerShell Help System</h2>
+
+<h5 id="update-your-powershell-help-files">Update your PowerShell Help Files</h5>
+<p>Ensures you have the latest help files</p>
+<ul>
+  <li>Requires internet connection</li>
+  <li>You may notice a few error messages while trying to update all of the modules. This is normal</li>
+</ul>
+
+<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="w">	</span><span class="nf">Update-Help</span><span class="w">
+</span></code></pre></div></div>
+
+<h5 id="get-a-list-of-modules-that-support-updatable-help">Get a list of Modules that support Updatable Help</h5>
+
+<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">Get-Module</span><span class="w"> </span><span class="nt">-ListAvailable</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="nf">Where-Object</span><span class="w"> </span><span class="nt">-Property</span><span class="w"> </span><span class="nx">HelpInfoUri</span><span class="w">
+</span></code></pre></div></div>
+
+<h5 id="obtain-full-help-file-from-on-a-specific-cmdlet">Obtain full help file from on a specific cmdlet</h5>
+
+<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">Get-Help</span><span class="w"> </span><span class="nx">Get-Service</span><span class="w"> </span><span class="nt">-Full</span><span class="w">
+</span></code></pre></div></div>
+
+<h2 id="summary-clapper">Summary <img class="emoji" title=":clapper:" alt=":clapper:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3ac.png" height="20" width="20">
+</h2>
+<ul>
+  <li>Have a question?</li>
+  <li>Find an error?</li>
+  <li>Have a suggestion on how to improve this page?</li>
+</ul>
+
+<h5 id="please-leave-a-comment-and-i-will-respond-back-speech_balloon">Please leave a comment and I will respond back <img class="emoji" title=":speech_balloon:" alt=":speech_balloon:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4ac.png" height="20" width="20">
+</h5>
+
+<script src="https://utteranc.es/client.js" repo="djsimtech/blog" issue-term="pathname" theme="github-dark" crossorigin="anonymous" async="">
+</script>
+
+
   
 </article>
 
 
+<hr class="dingbat related">
+
+
+
+
   
+     
 
 
-
-
-
-<article id="post-blog-2020-09-05-PowerShell Basics" class="page post mb6" role="article">
-  <header>
-    <h1 class="post-title flip-project-title">
-      <a href="/blog/2020/09/05/PowerShell-Basics.html" class="flip-title">
-        PowerShell - The Very Basics
-      </a>
-    </h1>
-
-    <div class="post-date">
-      
-      <time datetime="2020-09-05T00:00:00-07:00">09-05-2020</time>
-      
-      
-      
-      
-      
-
-
-
-
-
-
-
-
-
-in <span>Blog</span>
-
-      
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-
+  <aside class="about related mt4 mb4" role="complementary">
     
     
-      <a href="/blog/2020/09/05/PowerShell-Basics.html" class="no-hover no-print-link flip-project" tabindex="-1">
-        <div class="lead aspect-ratio sixteen-nine flip-project-img">
-          
 
+<div class="author mt4">
+  
 
-<img
   
-    src="/assets/img/blog/psride.jpg"
-  
-  alt="PowerShell - The Very Basics"
-  
-  
-  width="864"
-  height="486"
-  loading="lazy"
-/>
-
-        </div>
-      </a>
-      
-    
-
     
 
 
+<img src="/assets/img/logo.png" srcset="/assets/img/logo.png 1x,/assets/img/logo.png 2x" alt="Danny Simmons" class="avatar" width="120" height="120" loading="lazy">
 
   
-    <p class="note-sm" >
-      Barely Scratching the surface with PowerShell’s Basic Commands
-
-    </p>
-  
-
-
-  </header>
 
   
-    <p class="figcaption">Buckle Up….You’re in for a wild ride!</p>
+  
+  <h2 class="page-title hr-bottom">
+    About
+  </h2>
+
+  <p>Windows Systems Administrator with a thirst for knowledge. 20 years of IT experience with a current focus on End User Computing and Automation.</p>
+
+
+  <div class="sidebar-social">
+    <span class="sr-only">Social:</span>
+<ul>
+  
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://www.linkedin.com/in/danny-simmons-3880162" title="LinkedIn" class="no-mark-external">
+      <span class="icon-linkedin2"></span>
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  </li>
 
 
     
-    
-    <footer>
-      <p class="read-more">
-        Continue reading <a class="heading flip-title" href="/blog/2020/09/05/PowerShell-Basics.html">PowerShell - The Very Basics</a>
-
-      </p>
-    </footer>
-  
-</article>
-
-
-  
-
-
-
-
-
-<article id="post-blog-2020-09-04-MD-100-Study-Guide" class="page post mb6" role="article">
-  <header>
-    <h1 class="post-title flip-project-title">
-      <a href="/blog/2020/09/04/MD-100-Study-Guide.html" class="flip-title">
-        Microsoft MD-100 Certification - Study Guide
-      </a>
-    </h1>
-
-    <div class="post-date">
-      
-      <time datetime="2020-09-04T00:00:00-07:00">09-04-2020</time>
-      
-      
-      
-      
       
 
 
 
-
-
-
-
-
-
-in <span>Blog</span>
-
-      
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-
-    
-    
-      <a href="/blog/2020/09/04/MD-100-Study-Guide.html" class="no-hover no-print-link flip-project" tabindex="-1">
-        <div class="lead aspect-ratio sixteen-nine flip-project-img">
-          
-
-
-<img
-  
-    src="/assets/img/blog/MD-100.jpg"
-  
-  alt="Microsoft MD-100 Certification - Study Guide"
-  
-  
-  width="864"
-  height="486"
-  loading="lazy"
-/>
-
-        </div>
-      </a>
-      
-    
-
-    
-
-
-
-  
-    <p class="note-sm" >
-      Links to help you study for and pass the Microsoft MD-100 Certification Test
-
-    </p>
   
 
-
-  </header>
+  
+  
+  
+  
 
   
-    <p class="figcaption">Microsoft 365 Certified - Modern Desktop Administrator - Associate</p>
+
+  
+
+  <li>
+    <a href="https://twitter.com/djsimtech" title="Twitter" class="no-mark-external">
+      <span class="icon-twitter"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  </li>
 
 
     
-    
-    <footer>
-      <p class="read-more">
-        Continue reading <a class="heading flip-title" href="/blog/2020/09/04/MD-100-Study-Guide.html">Microsoft MD-100 Certification - Study Guide</a>
-
-      </p>
-    </footer>
-  
-</article>
-
-
-  
-
-
-
-
-
-<article id="post-blog-2020-09-03-AZ-900-Study-Guide" class="page post mb6" role="article">
-  <header>
-    <h1 class="post-title flip-project-title">
-      <a href="/blog/2020/09/03/AZ-900-Study-Guide.html" class="flip-title">
-        Microsoft AZ-900 Certification - Study Guide
-      </a>
-    </h1>
-
-    <div class="post-date">
-      
-      <time datetime="2020-09-03T00:00:00-07:00">09-03-2020</time>
-      
-      
-      
-      
       
 
 
 
-
-
-
-
-
-
-in <span>Blog</span>
-
-      
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-
-    
-    
-      <a href="/blog/2020/09/03/AZ-900-Study-Guide.html" class="no-hover no-print-link flip-project" tabindex="-1">
-        <div class="lead aspect-ratio sixteen-nine flip-project-img">
-          
-
-
-<img
-  
-    src="/assets/img/blog/AZ900.png"
-  
-  alt="Microsoft AZ-900 Certification - Study Guide"
-  
-  
-  width="864"
-  height="486"
-  loading="lazy"
-/>
-
-        </div>
-      </a>
-      
-    
-
-    
-
-
-
-  
-    <p class="note-sm" >
-      Links to help you study for and pass the Microsoft MD-100 Certification Test
-
-    </p>
   
 
-
-  </header>
+  
+  
+  
+  
 
   
-    <p class="figcaption">Microsoft Azure Fundamentals Certification</p>
+
+  
+
+  <li>
+    <a href="https://github.com/djsimtech" title="GitHub" class="no-mark-external">
+      <span class="icon-github"></span>
+      <span class="sr-only">GitHub</span>
+    </a>
+  </li>
 
 
     
-    
-    <footer>
-      <p class="read-more">
-        Continue reading <a class="heading flip-title" href="/blog/2020/09/03/AZ-900-Study-Guide.html">Microsoft AZ-900 Certification - Study Guide</a>
+      
 
-      </p>
-    </footer>
+
+
   
-</article>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="http://steamcommunity.com/id/fenrader" title="Steam" class="no-mark-external">
+      <span class="icon-steam"></span>
+      <span class="sr-only">Steam</span>
+    </a>
+  </li>
+
+
+    
+      
 
 
 
+
+    
+  
+</ul>
+
+  </div>
+</div>
+
+  </aside>
+
+
+  
+
+  
+  
+
+  
+    
+
+
+  <aside class="related mb4" role="complementary">  <h2 class="hr-bottom">Related Posts</h2>  <ul class="related-posts">                  <li class="h4">  <a href="/blog/2020/09/05/PowerShell-Basics.html" class="flip-title"><span>PowerShell - The Very Basics</span></a>  <time class="faded fine" datetime="2020-09-05T00:00:00-07:00">2020-09-05</time>
+</li>                        <li class="h4">  <a href="/blog/2020/09/04/MD-100-Study-Guide.html" class="flip-title"><span>Microsoft MD-100 Certification - Study Guide</span></a>  <time class="faded fine" datetime="2020-09-04T00:00:00-07:00">2020-09-04</time>
+</li>                        <li class="h4">  <a href="/blog/2020/09/03/AZ-900-Study-Guide.html" class="flip-title"><span>Microsoft AZ-900 Certification - Study Guide</span></a>  <time class="faded fine" datetime="2020-09-03T00:00:00-07:00">2020-09-03</time>
+</li>            </ul></aside>
+
+  
+
+  
+  
+
+  
+    
+
+  
 
 
   
 <footer class="content" role="contentinfo">
-  <hr/>
+  <hr>
   
   
     <p><small>Powered by <a class="external" href="https://hydejack.com/">Hydejack</a> v<span id="_version">9.0.4</span></small></p>
-  <hr class="sr-only"/>
+  <hr class="sr-only">
 </footer>
 
 
 </main>
 
-  <hy-drawer
-  id="_drawer"
-  class=""
-  side="left"
-  threshold="10"
-  noscroll
-  
->
+  <hy-drawer id="_drawer" class="" side="left" threshold="10" noscroll>
   <header id="_sidebar" class="sidebar" role="banner">
     
 
@@ -622,7 +519,7 @@ in <span>Blog</span>
   <div class="sidebar-about">
     
       <a class="no-hover" href="/" tabindex="-1">
-        <img src="/assets/img/dannygalaxy_cropped.jpg" class="avatar" alt="djsimtech" width="120" height="120" loading="lazy" />
+        <img src="/assets/img/dannygalaxy_cropped.jpg" class="avatar" alt="djsimtech" width="120" height="120" loading="lazy">
       </a>
     
     <a class="sidebar-title" href="/"><h2 class="h1">djsimtech</h2></a>
@@ -642,24 +539,14 @@ in <span>Blog</span>
     
       
       <li>
-        <a
-          id="_drawer--opened"
-          href="/blog/"
-          class="sidebar-nav-item"
-          
-        >
+        <a id="_drawer--opened" href="/blog/" class="sidebar-nav-item">
           Blog
         </a>
       </li>
     
       
       <li>
-        <a
-          
-          href="/about/"
-          class="sidebar-nav-item"
-          
-        >
+        <a href="/about/" class="sidebar-nav-item">
           About
         </a>
       </li>
@@ -784,7 +671,7 @@ in <span>Blog</span>
 </div>
   </header>
 </hy-drawer>
-<hr class="sr-only" hidden />
+<hr class="sr-only" hidden>
 
 </hy-push-state>
 

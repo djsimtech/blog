@@ -14,22 +14,19 @@ Buckle Up....You're in for a wild ride!
 
 ## Objective :mag:
 
-To provide some very basic PowerShell commands that will get you started on your journey to scripting and automation.
+To document some very basic PowerShell commands that I have learned so I can keep them in one place.
 
 ## Prerequisites :white_check_mark:
 
 General Windows Operating System Knowledge
 
-PowerShell version 5 or higher
-
-We'll cover how to check your PowerShell version below
-{:.note}
+PowerShell version 5 or higher (Command below will show what version is running)
 
 ## Background :bulb:
 
 ##### Q: What exactly is [PowerShell?](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7)
 
-A: PowerShell is a cross-platform task automation and configuration management framework, consisting of a command-line shell and scripting language.
+A: According to Microsoft, PowerShell is a cross-platform task automation and configuration management framework, consisting of a command-line shell and scripting language.
 
 ##### Q: How Do I open PowerShell?
 
@@ -39,7 +36,7 @@ Windows PowerShell comes included with Windows
  - Option 3: In File Explorer, navigate to C:\Windows\System32\WindowsPowerShell\v1.0 and double click the powershell.exe icon.
  - Like everything in Windows there are a dozen ways to accomplish the same task, so this is not an all-inclusive list. If you have a favorite way of opening PowerShell, let others know if the comments and I will add it to the list.
 
-## How to Enter Commands
+## How to Enter Commands :computer:
 
 ##### Q: How Can I check which version of PowerShell I am running?
 
@@ -55,41 +52,14 @@ Major  Minor  Build  Revision
 By looking at the "Major" and "Minor" columns, you can see that in this scenario, PowerShell is on Version 5.1
 {:.note}
 
-##### Q: I'm used to running commands in the Command Prompt. Will those commands run in PowerShell too?
+##### Q: How do you enter commands in PowerShell?
 
-A: In most cases yes. IpConfig and Ping are .exe's and PowerShell can run those without issue:
+A: You enter commands using a Verb-Noun syntax. Four examples below show the format used.
 
-Running [IPConfig](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/ipconfig) in PowerShell:
-
-```Powershell
-PS C:\> ipconfig.exe                                                                                       
-Windows IP Configuration
-
-Ethernet adapter vEthernet (External vSwitch):
-
-   Connection-specific DNS Suffix  . :
-   IPv4 Address. . . . . . . . . . . : 192.168.1.119
-   Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Default Gateway . . . . . . . . . : 192.168.1.1
-
-PS C:\>                                
-```
-
-Running a ping test on Google
-
-```powershell
-PS C:\> ping www.google.com                                                                                
-Pinging www.google.com [142.250.68.4] with 32 bytes of data:
-Reply from 142.250.68.4: bytes=32 time=26ms TTL=119
-Reply from 142.250.68.4: bytes=32 time=18ms TTL=119
-Reply from 142.250.68.4: bytes=32 time=19ms TTL=119
-Reply from 142.250.68.4: bytes=32 time=19ms TTL=119
-
-Ping statistics for 142.250.68.4:
-    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
-Approximate round trip times in milli-seconds:
-    Minimum = 18ms, Maximum = 26ms, Average = 20ms
-```
+* Get-EventLog
+* Format-Table
+* Get-Process
+* Stop-Process
 
 ## External Links :link:
 
