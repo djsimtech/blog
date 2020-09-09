@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-09-08T17:45:10-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">djsimtech</title><subtitle>This blog is for random tech related posts.</subtitle><entry><title type="html">PowerShell - Using the Help System</title><link href="http://localhost:4000/blog/2020/09/06/PowerShell-Help.html" rel="alternate" type="text/html" title="PowerShell - Using the Help System" /><published>2020-09-06T00:00:00-07:00</published><updated>2020-09-08T17:45:10-07:00</updated><id>http://localhost:4000/blog/2020/09/06/PowerShell%20Help</id><content type="html" xml:base="http://localhost:4000/blog/2020/09/06/PowerShell-Help.html">&lt;p class=&quot;figcaption&quot;&gt;Help is on the way&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-09-08T18:35:46-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">djsimtech</title><subtitle>This blog is for random tech related posts.</subtitle><entry><title type="html">PowerShell - Using the Help System</title><link href="http://localhost:4000/blog/2020/09/06/PowerShell-Help.html" rel="alternate" type="text/html" title="PowerShell - Using the Help System" /><published>2020-09-06T00:00:00-07:00</published><updated>2020-09-08T18:35:45-07:00</updated><id>http://localhost:4000/blog/2020/09/06/PowerShell%20Help</id><content type="html" xml:base="http://localhost:4000/blog/2020/09/06/PowerShell-Help.html">&lt;p class=&quot;figcaption&quot;&gt;Help is on the way&lt;/p&gt;
 
 &lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#objective-mag&quot; id=&quot;markdown-toc-objective-mag&quot;&gt;Objective :mag:&lt;/a&gt;&lt;/li&gt;
@@ -10,6 +10,7 @@
       &lt;li&gt;&lt;a href=&quot;#get-the-online-version-of-a-help-file-opens-in-a-broser-window&quot; id=&quot;markdown-toc-get-the-online-version-of-a-help-file-opens-in-a-broser-window&quot;&gt;Get the online version of a help file (opens in a broser window)&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#external-links-link&quot; id=&quot;markdown-toc-external-links-link&quot;&gt;External Links :link:&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#summary-clapper&quot; id=&quot;markdown-toc-summary-clapper&quot;&gt;Summary :clapper:&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#please-leave-a-comment-and-i-will-respond-back-speech_balloon&quot; id=&quot;markdown-toc-please-leave-a-comment-and-i-will-respond-back-speech_balloon&quot;&gt;Please leave a comment and I will respond back :speech_balloon:&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
@@ -52,6 +53,16 @@
 
 &lt;div class=&quot;language-powershell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nf&quot;&gt;Get-Help&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Get-Process&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-Online&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;external-links-link&quot;&gt;External Links :link:&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/powershell/&quot; target=&quot;_blank&quot;&gt;Microsoft PowerShell Documentation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLlVtbbG169nFq_hR7FcMYg32xsSAObuq8&quot; target=&quot;_blank&quot;&gt;PowerShell MasterClass YouTube Series - By John Saville&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PL6D474E721138865A&quot; target=&quot;_blank&quot;&gt;PowerShell in a Month of Lunches - By Don Jones&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://channel9.msdn.com/Series/Getting-Started-with-Microsoft-PowerShell&quot; target=&quot;_blank&quot;&gt;Channel 9 Series - Getting Started with Powershell&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;summary-clapper&quot;&gt;Summary :clapper:&lt;/h2&gt;
 &lt;ul&gt;

@@ -51,6 +51,16 @@ Get-Help Get-Service -Full
 Get-Help Get-Process -Online
 ```
 
+## External Links :link:
+
+[Microsoft PowerShell Documentation](https://docs.microsoft.com/en-us/powershell/){:target="_blank"}
+
+[PowerShell MasterClass YouTube Series - By John Saville](https://www.youtube.com/playlist?list=PLlVtbbG169nFq_hR7FcMYg32xsSAObuq8){:target="_blank"}
+
+[PowerShell in a Month of Lunches - By Don Jones](https://www.youtube.com/playlist?list=PL6D474E721138865A){:target="_blank"}
+
+[Channel 9 Series - Getting Started with Powershell](https://channel9.msdn.com/Series/Getting-Started-with-Microsoft-PowerShell){:target="_blank"}
+
 ## Summary :clapper:
 - Have a question?
 - Find an error?
