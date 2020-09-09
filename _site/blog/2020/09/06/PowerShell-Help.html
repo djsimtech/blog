@@ -48,11 +48,11 @@ Powered by Hydejack v9.0.4 <https://hydejack.com/>
 <link rel="canonical" href="http://localhost:4000/blog/2020/09/06/PowerShell-Help.html" />
 <meta property="og:url" content="http://localhost:4000/blog/2020/09/06/PowerShell-Help.html" />
 <meta property="og:site_name" content="djsimtech" />
-<meta property="og:image" content="http://localhost:4000/assets/img/blog/psride.jpg" />
+<meta property="og:image" content="http://localhost:4000/assets/img/blog/help2.jpg" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-09-06T00:00:00-07:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/dannygalaxy_cropped.jpg"}},"headline":"PowerShell - Using the Help System","dateModified":"2020-09-06T12:38:40-07:00","datePublished":"2020-09-06T00:00:00-07:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/2020/09/06/PowerShell-Help.html"},"image":"http://localhost:4000/assets/img/blog/psride.jpg","description":"Barely Scratching the surface with PowerShell’s Basic Commands","url":"http://localhost:4000/blog/2020/09/06/PowerShell-Help.html","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/dannygalaxy_cropped.jpg"}},"headline":"PowerShell - Using the Help System","dateModified":"2020-09-08T17:45:10-07:00","datePublished":"2020-09-06T00:00:00-07:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/2020/09/06/PowerShell-Help.html"},"image":"http://localhost:4000/assets/img/blog/help2.jpg","description":"Barely Scratching the surface with PowerShell’s Basic Commands","url":"http://localhost:4000/blog/2020/09/06/PowerShell-Help.html","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -224,7 +224,7 @@ in <span>Blog</span>
           
 
 
-<img src="/assets/img/blog/psride.jpg" alt="PowerShell - Using the Help System" width="864" height="486" loading="lazy">
+<img src="/assets/img/blog/help2.jpg" alt="PowerShell - Using the Help System" width="864" height="486" loading="lazy">
 
         </div>
       
@@ -256,6 +256,7 @@ in <span>Blog</span>
       <li><a href="#update-your-powershell-help-files" id="markdown-toc-update-your-powershell-help-files">Update your PowerShell Help Files</a></li>
       <li><a href="#get-a-list-of-modules-that-support-updatable-help" id="markdown-toc-get-a-list-of-modules-that-support-updatable-help">Get a list of Modules that support Updatable Help</a></li>
       <li><a href="#obtain-full-help-file-from-on-a-specific-cmdlet" id="markdown-toc-obtain-full-help-file-from-on-a-specific-cmdlet">Obtain full help file from on a specific cmdlet</a></li>
+      <li><a href="#get-the-online-version-of-a-help-file-opens-in-a-broser-window" id="markdown-toc-get-the-online-version-of-a-help-file-opens-in-a-broser-window">Get the online version of a help file (opens in a broser window)</a></li>
     </ul>
   </li>
   <li>
@@ -268,7 +269,7 @@ in <span>Blog</span>
 <h2 id="objective-mag">Objective <img class="emoji" title=":mag:" alt=":mag:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f50d.png" height="20" width="20">
 </h2>
 
-<p>To document some use cases on how to the the Help System to find what you need in PowerShell</p>
+<p>To document some use cases on how to the the <a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/get-help?view=powershell-7" target="_blank">Help System</a> to find what you need in PowerShell</p>
 
 <h2 id="prerequisites-white_check_mark">Prerequisites <img class="emoji" title=":white_check_mark:" alt=":white_check_mark:" src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png" height="20" width="20">
 </h2>
@@ -276,8 +277,6 @@ in <span>Blog</span>
 <p>General Windows Operating System Knowledge</p>
 
 <p>PowerShell version 5 or higher</p>
-
-<p class="note">We’ll cover how to check your PowerShell version below</p>
 
 <h2 id="using-the-powershell-help-system">Using the PowerShell Help System</h2>
 
@@ -299,6 +298,11 @@ in <span>Blog</span>
 <h5 id="obtain-full-help-file-from-on-a-specific-cmdlet">Obtain full help file from on a specific cmdlet</h5>
 
 <div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">Get-Help</span><span class="w"> </span><span class="nx">Get-Service</span><span class="w"> </span><span class="nt">-Full</span><span class="w">
+</span></code></pre></div></div>
+
+<h5 id="get-the-online-version-of-a-help-file-opens-in-a-broser-window">Get the online version of a help file (opens in a broser window)</h5>
+
+<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">Get-Help</span><span class="w"> </span><span class="nx">Get-Process</span><span class="w"> </span><span class="nt">-Online</span><span class="w">
 </span></code></pre></div></div>
 
 <h2 id="summary-clapper">Summary <img class="emoji" title=":clapper:" alt=":clapper:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3ac.png" height="20" width="20">

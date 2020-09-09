@@ -1,7 +1,7 @@
 ---
 layout: post  
 title: PowerShell - Using the Help System
-image: /assets/img/blog/psride.jpg
+image: /assets/img/blog/help2.jpg
 description: >
   Barely Scratching the surface with PowerShell's Basic Commands
 ---
@@ -14,16 +14,13 @@ Help is on the way
 
 ## Objective :mag:
 
-To document some use cases on how to the the Help System to find what you need in PowerShell
+To document some use cases on how to the the [Help System](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/get-help?view=powershell-7){:target="_blank"} to find what you need in PowerShell
 
 ## Prerequisites :white_check_mark:
 
 General Windows Operating System Knowledge
 
 PowerShell version 5 or higher
-
-We'll cover how to check your PowerShell version below
-{:.note}
 
 ## Using the PowerShell Help System
 
@@ -46,6 +43,12 @@ Get-Module -ListAvailable | Where-Object -Property HelpInfoUri
 
 ```powershell
 Get-Help Get-Service -Full
+```
+
+##### Get the online version of a help file (opens in a broser window)
+
+```powershell
+Get-Help Get-Process -Online
 ```
 
 ## Summary :clapper:

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-09-08T17:24:10-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">djsimtech</title><subtitle>This blog is for random tech related posts.</subtitle><entry><title type="html">PowerShell - Using the Help System</title><link href="http://localhost:4000/blog/2020/09/06/PowerShell-Help.html" rel="alternate" type="text/html" title="PowerShell - Using the Help System" /><published>2020-09-06T00:00:00-07:00</published><updated>2020-09-06T12:38:40-07:00</updated><id>http://localhost:4000/blog/2020/09/06/PowerShell%20Help</id><content type="html" xml:base="http://localhost:4000/blog/2020/09/06/PowerShell-Help.html">&lt;p class=&quot;figcaption&quot;&gt;Help is on the way&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2020-09-08T17:45:10-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">djsimtech</title><subtitle>This blog is for random tech related posts.</subtitle><entry><title type="html">PowerShell - Using the Help System</title><link href="http://localhost:4000/blog/2020/09/06/PowerShell-Help.html" rel="alternate" type="text/html" title="PowerShell - Using the Help System" /><published>2020-09-06T00:00:00-07:00</published><updated>2020-09-08T17:45:10-07:00</updated><id>http://localhost:4000/blog/2020/09/06/PowerShell%20Help</id><content type="html" xml:base="http://localhost:4000/blog/2020/09/06/PowerShell-Help.html">&lt;p class=&quot;figcaption&quot;&gt;Help is on the way&lt;/p&gt;
 
 &lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#objective-mag&quot; id=&quot;markdown-toc-objective-mag&quot;&gt;Objective :mag:&lt;/a&gt;&lt;/li&gt;
@@ -7,6 +7,7 @@
       &lt;li&gt;&lt;a href=&quot;#update-your-powershell-help-files&quot; id=&quot;markdown-toc-update-your-powershell-help-files&quot;&gt;Update your PowerShell Help Files&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#get-a-list-of-modules-that-support-updatable-help&quot; id=&quot;markdown-toc-get-a-list-of-modules-that-support-updatable-help&quot;&gt;Get a list of Modules that support Updatable Help&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#obtain-full-help-file-from-on-a-specific-cmdlet&quot; id=&quot;markdown-toc-obtain-full-help-file-from-on-a-specific-cmdlet&quot;&gt;Obtain full help file from on a specific cmdlet&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#get-the-online-version-of-a-help-file-opens-in-a-broser-window&quot; id=&quot;markdown-toc-get-the-online-version-of-a-help-file-opens-in-a-broser-window&quot;&gt;Get the online version of a help file (opens in a broser window)&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#summary-clapper&quot; id=&quot;markdown-toc-summary-clapper&quot;&gt;Summary :clapper:&lt;/a&gt;    &lt;ul&gt;
@@ -17,15 +18,13 @@
 
 &lt;h2 id=&quot;objective-mag&quot;&gt;Objective :mag:&lt;/h2&gt;
 
-&lt;p&gt;To document some use cases on how to the the Help System to find what you need in PowerShell&lt;/p&gt;
+&lt;p&gt;To document some use cases on how to the the &lt;a href=&quot;https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/get-help?view=powershell-7&quot; target=&quot;_blank&quot;&gt;Help System&lt;/a&gt; to find what you need in PowerShell&lt;/p&gt;
 
 &lt;h2 id=&quot;prerequisites-white_check_mark&quot;&gt;Prerequisites :white_check_mark:&lt;/h2&gt;
 
 &lt;p&gt;General Windows Operating System Knowledge&lt;/p&gt;
 
 &lt;p&gt;PowerShell version 5 or higher&lt;/p&gt;
-
-&lt;p class=&quot;note&quot;&gt;We’ll cover how to check your PowerShell version below&lt;/p&gt;
 
 &lt;h2 id=&quot;using-the-powershell-help-system&quot;&gt;Using the PowerShell Help System&lt;/h2&gt;
 
@@ -49,6 +48,11 @@
 &lt;div class=&quot;language-powershell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nf&quot;&gt;Get-Help&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Get-Service&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-Full&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+&lt;h5 id=&quot;get-the-online-version-of-a-help-file-opens-in-a-broser-window&quot;&gt;Get the online version of a help file (opens in a broser window)&lt;/h5&gt;
+
+&lt;div class=&quot;language-powershell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nf&quot;&gt;Get-Help&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Get-Process&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-Online&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;h2 id=&quot;summary-clapper&quot;&gt;Summary :clapper:&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;Have a question?&lt;/li&gt;
@@ -59,7 +63,7 @@
 &lt;h5 id=&quot;please-leave-a-comment-and-i-will-respond-back-speech_balloon&quot;&gt;Please leave a comment and I will respond back :speech_balloon:&lt;/h5&gt;
 
 &lt;script src=&quot;https://utteranc.es/client.js&quot; repo=&quot;djsimtech/blog&quot; issue-term=&quot;pathname&quot; theme=&quot;github-dark&quot; crossorigin=&quot;anonymous&quot; async=&quot;&quot;&gt;
-&lt;/script&gt;</content><author><name></name></author><category term="blog" /><summary type="html">Help is on the way</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/psride.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/psride.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">PowerShell - The Very Basics</title><link href="http://localhost:4000/blog/2020/09/05/PowerShell-Basics.html" rel="alternate" type="text/html" title="PowerShell - The Very Basics" /><published>2020-09-05T00:00:00-07:00</published><updated>2020-09-08T17:24:10-07:00</updated><id>http://localhost:4000/blog/2020/09/05/PowerShell%20Basics</id><content type="html" xml:base="http://localhost:4000/blog/2020/09/05/PowerShell-Basics.html">&lt;p class=&quot;figcaption&quot;&gt;Buckle Up….You’re in for a wild ride!&lt;/p&gt;
+&lt;/script&gt;</content><author><name></name></author><category term="blog" /><summary type="html">Help is on the way</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/help2.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/help2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">PowerShell - The Very Basics</title><link href="http://localhost:4000/blog/2020/09/05/PowerShell-Basics.html" rel="alternate" type="text/html" title="PowerShell - The Very Basics" /><published>2020-09-05T00:00:00-07:00</published><updated>2020-09-08T17:24:10-07:00</updated><id>http://localhost:4000/blog/2020/09/05/PowerShell%20Basics</id><content type="html" xml:base="http://localhost:4000/blog/2020/09/05/PowerShell-Basics.html">&lt;p class=&quot;figcaption&quot;&gt;Buckle Up….You’re in for a wild ride!&lt;/p&gt;
 
 &lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#objective-mag&quot; id=&quot;markdown-toc-objective-mag&quot;&gt;Objective :mag:&lt;/a&gt;&lt;/li&gt;
