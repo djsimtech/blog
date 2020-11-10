@@ -27,6 +27,7 @@ PowerShell version 5 or higher
 ##### Update your PowerShell Help Files
    Ensures you have the latest help files
 * Requires internet connection
+* Run PowerShell as Administrator
 * You may notice a few error messages while trying to update all of the modules. This is normal
 
 ```powershell	
