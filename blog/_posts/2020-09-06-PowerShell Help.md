@@ -62,6 +62,8 @@ Get-Help Get-Process -Online
 
 [Channel 9 Series - Getting Started with Powershell](https://channel9.msdn.com/Series/Getting-Started-with-Microsoft-PowerShell){:target="_blank"}
 
+[PowerShell on GitHub](http://github.com/powershell){:target="_blank"}
+
 ## Summary :clapper:
 - Have a question?
 - Find an error?
