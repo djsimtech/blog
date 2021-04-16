@@ -3,7 +3,7 @@ layout: post
 title: PowerShell - Using the Help System
 image: /assets/img/blog/help2.jpg
 description: >
-  Barely Scratching the surface with PowerShell's Help Commands
+  Introduction to using PowerShell's Help Commands
 ---
 
 Help is on the way
