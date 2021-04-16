@@ -63,11 +63,11 @@ A: You enter commands using a Verb-Noun syntax. Four examples below show the for
 
 ## External Links :link:
 
-[Microsoft PowerShell Documentation](https://docs.microsoft.com/en-us/powershell/)
+[Microsoft PowerShell Documentation](https://docs.microsoft.com/en-us/powershell/){:target="_blank"}
 
-[PowerShell.org](https://powershell.org/)
+[PowerShell.org](https://powershell.org/){:target="_blank"}
 
-[Top PowerShell Blogs for 2020](https://blog.feedspot.com/powershell_blogs/)
+[Top PowerShell Blogs for 2020](https://blog.feedspot.com/powershell_blogs/){:target="_blank"}
 
 ## Summary :clapper:
 - Have a question?
