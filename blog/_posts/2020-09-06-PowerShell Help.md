@@ -14,7 +14,7 @@ Help is on the way
 
 ## Objective :mag:
 
-To document some use cases on how to the the [Help System](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/get-help?view=powershell-7){:target="_blank"} to find what you need in PowerShell
+To document some use cases on how to use the [Help System](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/get-help?view=powershell-7){:target="_blank"} to find what you need in PowerShell
 
 ## Prerequisites :white_check_mark:
 
