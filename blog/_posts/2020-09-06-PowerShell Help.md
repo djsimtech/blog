@@ -3,7 +3,7 @@ layout: post
 title: PowerShell - Using the Help System
 image: /assets/img/blog/help2.jpg
 description: >
-  Barely Scratching the surface with PowerShell's Basic Commands
+  Barely Scratching the surface with PowerShell's Help Commands
 ---
 
 Help is on the way
