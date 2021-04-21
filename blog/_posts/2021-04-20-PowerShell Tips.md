@@ -23,7 +23,9 @@ General Windows Operating System Knowledge
 PowerShell version 5 or higher
 
 ## Useful PowerShell Tips
-##### Check if PowerShell is running in 32-bit or 64-bit mode.
+
+##### Check if PowerShell is running in 32-bit or 64-bit process.
+* If output = True, PowerShell is running as a 64-bit Process
 	
 ```powershell	
 [System.Environment]::Is64BitProcess
