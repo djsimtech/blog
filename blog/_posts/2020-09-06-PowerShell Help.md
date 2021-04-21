@@ -1,12 +1,12 @@
 ---
 layout: post  
 title: PowerShell Tips
-image: /assets/img/blog/help2.jpg
+image: /assets/img/blog/Tips.jpg
 description: >
   Useful PowerShell Tips
 ---
 
-Help is on the way
+Useful Tips
 {:.figcaption}
 
 - Table of Contents
