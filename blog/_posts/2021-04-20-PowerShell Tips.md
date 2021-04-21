@@ -23,8 +23,6 @@ General Windows Operating System Knowledge
 PowerShell version 5 or higher
 
 ## Useful PowerShell Tips
-```
-
 ##### Check if PowerShell is running in 32-bit or 64-bit mode.
 	
 ```powershell	
