@@ -1,9 +1,9 @@
 ---
 layout: post  
-title: PowerShell Tips
+title: PowerShell - Using the Help System
 image: /assets/img/blog/help2.jpg
 description: >
-  Useful PowerShell Tips
+  Introduction to using PowerShell's Help Commands
 ---
 
 Help is on the way
