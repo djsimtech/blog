@@ -41,6 +41,12 @@ Method #2
 [intptr]::size
 ```
 
+##### Check Powershell Version
+
+```powershell	
+$PSVersionTable
+```
+
 ## Summary :clapper:
 - Have a question?
 - Find an error?
