@@ -25,10 +25,20 @@ PowerShell version 5 or higher
 ## Useful PowerShell Tips
 
 ##### Check if PowerShell is running in 32-bit or 64-bit process.
+
+Method #1	
 * If output = True, PowerShell is running as a 64-bit Process
-	
+
 ```powershell	
 [System.Environment]::Is64BitProcess
+```
+
+Method #2
+* If output = 8, PowerShell is running as a 64-bit Process
+* If output = 4, PowerShell is running as a 32-bit Process
+
+```powershell	
+[intptr]::size
 ```
 
 ## Summary :clapper:
